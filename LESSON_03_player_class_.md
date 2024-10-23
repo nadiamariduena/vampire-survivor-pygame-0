@@ -178,6 +178,21 @@ class Player(pygame.sprite.Sprite):
 >#### So, we need to pass both the position (where the player starts) and the groups (to organize our sprites) when we create the player instance.
 
 
----
-
 <br>
+<br>
+
+### 🟡  5. Passing the Player Parameters Inside the Game Class
+
+
+#### 🟤 1. Position (pos)
+
+The first thing we need is the position of the player on the screen.
+
+> **For example**, if we want the player to start at coordinates (400, 300), we create the player like this:
+
+```python
+# ---- PLAYER
+self.player = Player(400, 300)
+```
+
+#### 🟤 2. Groups (groups)
