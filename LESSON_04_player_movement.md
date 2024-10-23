@@ -87,3 +87,7 @@ We will be adding this 3 lines to the Player class
 ####  Here, we’re defining which way our player is facing.
 
 > #### 🌈 A Vector2(1, 0) means the player is pointed to the right.
+
+> If we wanted them to look up or down, we could change this to something like **Vector2(0, -1)** or **Vector2(0, 1)**.
+
+This simple line provides our character with a clear path to follow (like a reliable compass)!
