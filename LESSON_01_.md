@@ -53,3 +53,7 @@
 <br>
 
 🟤**Level Creation with an Editor:** Building levels manually can be time-consuming and inefficient.
+
+>   #### We'll dive into creating a level editor that allows us to design and modify game environments easily.
+
+>   This will enable us to focus on creativity and gameplay design, making the development process more streamlined.
