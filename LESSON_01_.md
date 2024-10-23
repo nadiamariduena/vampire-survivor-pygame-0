@@ -26,3 +26,16 @@
 - - Collision Detection
 
 - - Camera Control
+
+- - Level Creation with an Editor
+
+- - Animation Control
+
+
+<br>
+<br>
+
+
+#### 🟩 [3:46:05](https://youtu.be/8OMghdHP-zs?si=dvqBnEaPom9xq_-9&t=13565)
+
+🟤 **Collision Detection:** Understanding how to detect collisions between game objects is crucial.
