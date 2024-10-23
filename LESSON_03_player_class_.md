@@ -68,3 +68,50 @@ class Player(pygame.sprite.Sprite):
 ####  So, we need to know how to correctly navigate through these folders to find the images we need.
 
 Here’s how you can load an image for the player character:
+
+```python
+from settings import *  # This imports the settings, like width & height
+
+class Player(pygame.sprite.Sprite):
+    def __init__(self, pos, groups):
+        super().__init__(groups)
+# This loads the player's image from a folder path.
+# The 'join()' function helps us navigate through the folders correctly.
+
+        self.image = pygame.image.load(join("images", "player", "down", "0.png" )).convert_alpha()
+
+
+        # pos of the img
+        self.rect = self.image.get_frect(center = pos)
+```
+> **convert_alpha()** don't forge to convert to alpha
+
+### in my code
+
+```python
+self.image = pygame.image.load(join("../images", "player", "down", "0.png" )).convert_alpha()
+```
+
+<a name="check-the-path_"></a>
+
+#### Because my structure is:
+
+```python
+project_folder/
+│
+├── code/             # The folder where your 'main.py' is located
+│   └── main.py
+│
+├── .venv/            # Virtual environment folder (if using one)
+│
+└── images/           # Folder where all your game images are stored
+    ├── player/
+    │   ├── down/
+    │   │   └── 0.png
+    └── other_image.png
+
+```
+
+
+
+<br>
