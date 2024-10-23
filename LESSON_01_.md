@@ -449,3 +449,10 @@ Contains the **maps.tmx** file, which stores the game map data.
 - **version:** Version of the map format.
 
 - **orientation:** Indicates how the map is oriented (e.g., orthogonal).
+
+
+- **width and height:** Dimensions of the map in terms of tiles (e.g., 52 tiles wide, 50 tiles tall).
+
+- **tilewidth and tileheight:** Size of each tile in pixels (e.g., 64x64 pixels).
+
+<br>
