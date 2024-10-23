@@ -224,3 +224,39 @@ self.all_sprites = pygame.sprite.Group()
 ### Putting It All Together
 
 Here’s how everything works in the Game class:
+
+```python
+from settings import *
+from player import Player 🟡
+
+# Define the Game class to encapsulate the game's functionality
+class Game:
+    def __init__(self):
+        # Initialize all pygame modules
+        pygame.init()
+
+
+        # --- SETUP ------
+        self.display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+        pygame.display.set_caption('Survivor')
+        self.clock = pygame.time.Clock()
+        self.running = True
+        # --- SETUP ------
+
+        # GROUPS 🟡
+        self.all_sprites = pygame.sprite.Group()
+
+        # SPRITES 🟡
+        # player
+        self.player = Player((400, 300), self.all_sprites)
+
+```
+<br>
+<br>
+
+### 🟡  8. Updating and Drawing Sprites
+
+#### In your game, you need to update and draw the sprites every frame.
+
+- Here are the two important lines that do that:
+
