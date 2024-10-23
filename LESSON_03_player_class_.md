@@ -343,6 +343,8 @@ if __name__ == '__main__':
 
 [<img src="setup_player-game_00.png"/>]()
 
+>   🔴 **If the game window closes when running python main.py, try this:** Make sure you're inside the `.venv` (virtual environment) and that `pygame and pygame-ce` are installed. If it still doesn’t work, double check the image path. Since `main.py` is in the code folder, the path might need to go up one folder level to access the images. ✋ [Go to section](#check-the-path_)
+
 
 
  <br>
