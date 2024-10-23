@@ -130,10 +130,16 @@ image/player/down/0.png
 ```
 <br>
 
-<!-- no public -->
 
-**"image":** This is the main folder where all your game assets (like images) are stored.
 
-**"player":** Inside the image folder, there’s another folder called player which holds all the player-related images.
+<br>
+<br>
 
-**"down":** Inside the player folder, you have subfolders for different directions `(up, down, left, right)`.
+
+### 🟡  3.  Using the `Player` Class in `main.py`
+
+Now that we have our Player class set up in player.py, we need to use it in the main game file (main.py).
+
+To do this, we **import** the `Player` **class** like this:
+
+
