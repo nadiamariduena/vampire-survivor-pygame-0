@@ -506,3 +506,9 @@ the gid (global ID) attribute represents the unique identifier for a tile in the
 - - #### Each tile in a tileset has a global ID that allows the game engine to reference that specific tile when rendering the map.
 
 <br>
+
+### 🟫 Here's a breakdown of how it works:
+
+**Tileset:** A tileset is a collection of tiles (images) that can be used to create the game world. Each tile in this set has a unique ID starting from 1.
+
+**Global ID (gid):**
