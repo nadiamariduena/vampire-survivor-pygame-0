@@ -478,3 +478,15 @@ Contains the **maps.tmx** file, which stores the game map data.
 - - **name:** Name of the layer (e.g., "Ground").
 
 - - **width and height:** Dimensions of the layer in tiles.
+
+- - 🔴 **`<data>:`** Contains the tile **IDs** in CSV format, which correspond to the tiles in the tilesets.
+
+>- - - 🔴 **For example**, a value of 42 might correspond to a specific tile in the tileset.
+
+<br>
+
+### 🟢 Object Groups:
+
+#### `<objectgroup>` contains game entities (like characters and enemies):
+
+- - Each **`<object>`** represents an entity and includes attributes:
