@@ -143,3 +143,21 @@ Now that we have our Player class set up in player.py, we need to use it in the 
 To do this, we **import** the `Player` **class** like this:
 
 
+
+```python
+from player import Player
+```
+
+<br>
+
+### 🟡  4. Create an Instance of the `Player` Class
+
+- To actually use the **`Player` class**, we need to create an **instance of it**.
+
+
+```python
+# ---- PLAYER
+self.player = Player()
+```
+>Think of an instance like a "real" player character in the game. You can create one like this:
+
