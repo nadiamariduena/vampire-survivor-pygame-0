@@ -512,3 +512,22 @@ the gid (global ID) attribute represents the unique identifier for a tile in the
 **Tileset:** A tileset is a collection of tiles (images) that can be used to create the game world. Each tile in this set has a unique ID starting from 1.
 
 **Global ID (gid):**
+
+> - When you see `gid="214"`, it means that this particular tile corresponds to the 214th tile in the tileset being referenced.
+
+- - This ID is used in the map data to specify which tile to draw at each position on the map.
+
+<br>
+
+**Mapping to Tiles:**
+
+-  - In your map, **different areas are defined using these global IDs, so the game knows which tile to render** where based on the IDs listed in the `<data>` section of your layer.
+
+<br>
+<br>
+
+## 🟠 Differences
+
+### 🟫 In the context of your `.tmx` file, `id` and gid serve <u>different purposes:</u>
+
+🟤 **id:** This is a unique identifier for the specific object within the context of the layer or the map.
