@@ -26,3 +26,8 @@ This game is designed to give players an engaging experience reminiscent of clas
 
 <br>
 <br>
+
+
+## 🟡  Transitioning to Advanced Game Development Concepts
+
+In this project, we’ll introduce new concepts that differentiate it from our previous space shooter game.
