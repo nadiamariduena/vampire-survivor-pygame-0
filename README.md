@@ -58,3 +58,16 @@ In this project, we’ll introduce new concepts that differentiate it from our p
 
 > #### Players will learn to implement collision detection with objects and enemies, enabling immersive gameplay where every move matters.
 
+
+
+<br>
+<br>
+<br>
+
+## 🟨 Disclaimer:
+
+### Before we dive in, I’d like to share a quick disclaimer.
+
+> #### These lessons reflect my personal understanding and perspective on the topics we’ll cover.
+
+#### Even if you’re already familiar with some of the material, I encourage you to check out the accompanying video tutorials for a deeper insight. Everyone learns differently, and there’s always something new to discover!
