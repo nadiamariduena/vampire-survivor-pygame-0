@@ -52,4 +52,8 @@ In the new code structure **(the code below)**, we see a shift towards encapsula
 
 <br>
 
+> Additionally, encapsulating game state (like running and display_surface) within the Game class supports better control over the game's lifecycle.
+
+ Overall, this design pattern aligns with best practices in game development, paving the way for more complex features as we continue building the "Vampire Survivor" project.
+
 
