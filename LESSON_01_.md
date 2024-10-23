@@ -20,3 +20,9 @@
 
 ### In this project, we will explore several key concepts essential for building a more sophisticated game.
 
+
+#### 🍭 Specifically, we will focus on the following four areas:
+
+- - Collision Detection
+
+- - Camera Control
