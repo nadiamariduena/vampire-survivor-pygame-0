@@ -93,3 +93,48 @@ class Game:
 > #### The run method contains a loop that will continuously execute as long as the running variable is set to True.
 
 - Within this loop, placeholders indicate where the **delta time calculation, event handling, game state updates, and rendering** would take place, ensuring a structured approach to the game’s main loop.
+
+
+<br>
+
+### Updated code
+
+- 🔴 When we run this code, it will display a black screen.
+
+```python
+from settings import *  # Import settings, including WINDOW_WIDTH, WINDOW_HEIGHT, and any other configurations.
+
+class Game:  # Define the Game class.
+    def __init__(self):  # Constructor method for initializing the game.
+        pygame.init()  # Initialize the Pygame library.
+
+        # Set up the display surface with specified window dimensions.
+        self.display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+
+        pygame.display.set_caption('Survivor')  # Set the window title to 'Survivor'.
+        self.clock = pygame.time.Clock()  # Create a clock object to manage frame rate.
+        self.running = True  # Set a flag to indicate that the game is running.
+
+    def run(self):  # Define the run method to contain the game loop.
+        while self.running:  # Keep looping while the game is running.
+
+            # Calculate the delta time for frame-independent movement.
+            dt = self.clock.tick() / 1000
+
+            # Handle event loop to check for user interactions.
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:  # Check if the quit event is triggered.
+                    self.running = False  # Set running to False to exit the game loop.
+
+            # Update logic goes here, where game state changes would be implemented.
+
+            # Draw logic goes here, where game elements would be rendered to the screen.
+            pygame.display.update()  # Update the display to show the latest frame.
+
+        pygame.quit()  # Quit Pygame and clean up resources.
+
+# Instantiate the Game class and call the run method to start the game.
+game = Game()
+game.run()  # Start the game loop.
+
+```
