@@ -57,3 +57,9 @@
 >   #### We'll dive into creating a level editor that allows us to design and modify game environments easily.
 
 >   This will enable us to focus on creativity and gameplay design, making the development process more streamlined.
+
+<br>
+
+🟤**Animation Control:** Proper animation is vital for bringing characters and environments to life.
+
+>   #### We will learn how to manage animations effectively, including creating smooth transitions between different states (e.g., walking, jumping, attacking) and synchronizing them with game  mechanics.
