@@ -196,3 +196,9 @@ self.player = Player(400, 300)
 ```
 
 #### 🟤 2. Groups (groups)
+
+**Next**, we need to pass the group.
+
+>This is a list of all sprites that will be managed together.
+
+- - We’ll create this group later, but for now, we just pass `self.all_sprites` as the group for the player.
