@@ -39,3 +39,7 @@
 #### 🟩 [3:46:05](https://youtu.be/8OMghdHP-zs?si=dvqBnEaPom9xq_-9&t=13565)
 
 🟤 **Collision Detection:** Understanding how to detect collisions between game objects is crucial.
+
+>   #### We will learn various techniques to manage interactions, such as when a player character encounters an enemy or picks up an item.
+
+ This will enhance gameplay by providing feedback and consequences for player actions.
