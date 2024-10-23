@@ -115,3 +115,17 @@ project_folder/
 
 
 <br>
+
+## 🟠 What’s Happening Here?
+
+#### So when you use:
+
+```python
+join("image", "player", "down", "0.png")
+```
+#### It creates this full path:
+
+```python
+image/player/down/0.png
+```
+<br>
