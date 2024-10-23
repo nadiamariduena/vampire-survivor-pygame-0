@@ -86,8 +86,4 @@ class Game:
 
 <br>
 
-The `__init__` **method** is called when an instance of the class is created, where it initializes Pygame, creates the display surface, sets the window title, initializes a clock for frame rate management, and establishes a running state for the game loop.
-
-> #### The run method contains a loop that will continuously execute as long as the running variable is set to True.
-
-- Within this loop, placeholders indicate where the **delta time calculation, event handling, game state updates, and rendering** would take place, ensuring a structured approach to the game’s main loop.
+#### The `__init__` **method** is called when an instance of the class is created, ✋ where it initializes `Pygame`, creates the display surface, sets the window title, initializes a clock for frame rate management, and establishes a running state for the game loop.
