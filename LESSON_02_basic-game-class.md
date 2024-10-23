@@ -138,3 +138,24 @@ game = Game()
 game.run()  # Start the game loop.
 
 ```
+
+<br>
+<br>
+<br>
+
+---
+
+
+# 🔴 Note:
+
+## 🟡 Simplifying Execution in Our Project
+
+#### One key aspect of our project is that we will create multiple files as we develop the game.
+
+
+---
+
+<br>
+<br>
+<br>
+<br>
