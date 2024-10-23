@@ -27,3 +27,4 @@
 
 ## 🟠 Rectangular Collision Logic: Identifying Contact vs. Overlap
 
+ **Rectangles, or "rects,"** can only tell us when they’re touching, but they don’t say what to do next.
