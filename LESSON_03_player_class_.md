@@ -202,3 +202,15 @@ self.player = Player(400, 300)
 >This is a list of all sprites that will be managed together.
 
 - - We’ll create this group later, but for now, we just pass `self.all_sprites` as the group for the player.
+
+```python
+        # ---- PLAYER
+        self.player = Player((400, 300), self.all_sprites)
+```
+
+<br>
+<br>
+
+### 🟡  6. Create the First Group
+
+#### We now need to create the group where all our sprites (like the player) will go.
