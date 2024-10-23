@@ -17,7 +17,7 @@
 
 
 
-## 🫐 🟡 Player <u>Movement</u>  Implementation
+## 🫐   Player <u>Movement</u>  Implementation
 
 
 
@@ -30,3 +30,25 @@
 
 - - **movement** (moving the player around).
 
+
+#### These will be part of the player's update process.
+
+<br>
+
+```python
+    def input(self):
+        pass  # Here we will handle player controls (like keyboard input)
+
+    def move(self, dt):
+        pass  # Here we will move the player based on input
+
+```
+
+### These two methods will be called inside the `update()` method, which runs every frame to keep everything updated:
+
+```python
+    def update(self, dt):
+        self.input()  # Get player input (e.g., keyboard presses)
+        self.move(dt)  # Move the player based on input
+
+```
