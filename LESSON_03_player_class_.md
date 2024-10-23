@@ -36,3 +36,29 @@
 #### 🟧 A quick overview:
 
 > #### Player is going to be a "sprite", which is just a character or object in your game.
+
+> - - #### The `pygame.sprite.Sprite` is a special class that gives our player cool features like drawing, moving, and interacting with other sprites.
+
+```python
+ from settings import *  # We import the settings (like width & height) from the settings file.
+
+class Player(pygame.sprite.Sprite):
+    def __init__(self, pos, groups):
+# The 'super()' function is used to call the __init__ method of the parent class (Sprite).
+# 🔴 We're only passing 'groups' here because that's the only thing we need from the parent.
+
+        super().__init__(groups)
+
+```
+
+<br>
+
+
+<br>
+<br>
+
+## 🟡  2. Import the images
+
+### In this project, we’ll be working with many more images compared to our first game.
+
+> #### 🟤 These images are organized in folders, and some folders even contain other folders.
