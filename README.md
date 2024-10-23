@@ -31,3 +31,7 @@ This game is designed to give players an engaging experience reminiscent of clas
 ## 🟡  Transitioning to Advanced Game Development Concepts
 
 In this project, we’ll introduce new concepts that differentiate it from our previous space shooter game.
+
+> #### One key feature is the use of IDs to reference player positions.
+
+> This means that each element in the game whether it’s the **player, an enemy, or an object** will be assigned a **unique identifier (ID)**.
