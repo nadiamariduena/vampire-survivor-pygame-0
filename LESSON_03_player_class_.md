@@ -62,3 +62,9 @@ class Player(pygame.sprite.Sprite):
 ### In this project, we’ll be working with many more images compared to our first game.
 
 > #### 🟤 These images are organized in folders, and some folders even contain other folders.
+
+
+
+####  So, we need to know how to correctly navigate through these folders to find the images we need.
+
+Here’s how you can load an image for the player character:
