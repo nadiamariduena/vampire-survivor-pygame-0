@@ -23,3 +23,16 @@
 ---
 
 <br>
+<br>
+
+## 🟡  1. Create the Player Class in a Separate Python File
+
+- - **First,** open the code folder and create a new file named **`player.py`**.
+
+- -  **Now**, we're going to **define the Player class**.
+
+<br>
+
+#### 🟧 A quick overview:
+
+> #### Player is going to be a "sprite", which is just a character or object in your game.
