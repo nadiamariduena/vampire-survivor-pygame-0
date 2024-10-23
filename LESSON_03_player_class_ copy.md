@@ -2,21 +2,21 @@
 
 
 
-<br>
-<br>
-<br>
+
 
 ## 🟦 Intro
 
 
 
-
+<br>
+<br>
+<br>
 
 [3:47:56](https://youtu.be/8OMghdHP-zs?si=Q9UgY9U1Et1Ck8mf&t=13676)
 
 <br>
 
-## 🫐 🟡 Player Class Implementation
+# 🫐 🟡 Player Class Implementation
 
 #### Develop a player class that utilizes an imported player image and allows for movement (should be implemented as a sprite).
 
@@ -53,6 +53,22 @@ class Player(pygame.sprite.Sprite):
 
 <br>
 
+<!-- no public -->
+
+### 🟢 Explanation of `super() and __init__`:
+
+
+The `__init__` **method** is the **constructor** of the class—it runs when we create a new Player.
+
+<br>
+
+> #### The `super().__init__(groups)` is calling the parent class’s constructor (the one from `pygame.sprite.Sprite)` and passing the groups parameter.
+
+
+>  🟤 You don’t need to pass the pos (position) to super() because it’s not required by pygame.sprite.Sprite.
+
+#### The groups is all that matters for now—this tells Pygame where to put our player in the game’s sprite groups.
+<!-- no public -->
 
 <br>
 <br>
@@ -130,6 +146,21 @@ image/player/down/0.png
 ```
 <br>
 
+<!-- no public -->
+
+**"image":** This is the main folder where all your game assets (like images) are stored.
+
+**"player":** Inside the image folder, there’s another folder called player which holds all the player-related images.
+
+**"down":** Inside the player folder, you have subfolders for different directions `(up, down, left, right)`.
+
+- - In this case, it's the down folder because you’re showing the player’s down-facing sprite.
+
+
+**"0.png":** Finally, you choose a specific image (like a frame of an animation) from the down folder. Here, 0.png is the first image in that folder.
+
+
+ <!-- no public -->
 
 
 <br>
@@ -342,3 +373,27 @@ if __name__ == '__main__':
 #### [3:55:47](https://youtu.be/8OMghdHP-zs?si=wDCy8A7FL5SkuW3A&t=14147)
 
 [<img src="setup_player-game_00.png"/>]()
+
+>   🔴 **If the game window closes when running python main.py, try this:** Make sure you're inside the `.venv` (virtual environment) and that `pygame and pygame-ce` are installed. If it still doesn’t work, double check the image path. Since `main.py` is in the code folder, the path might need to go up one folder level to access the images. ✋ [Go to section](#check-the-path_)
+
+
+
+ <br>
+
+<!-- no public -->
+
+### 🟠 Explanation:
+
+**Update:** `self.all_sprites.update(dt)` moves and changes the sprites, like making the player move or updating animations.
+
+**Draw:** `self.all_sprites.draw(self.display_surface)` makes sure all sprites are shown on the screen for the current frame.
+
+> #### These lines make sure everything that should change (like the player or enemies) gets updated and that everything is shown on the screen.
+<!-- no public -->
+
+<br>
+<br>
+
+---
+
+<br>
