@@ -38,3 +38,6 @@
 
 >In the image below, you'll see four boxes. In the first example, the player’s box overlaps with the obstacle’s box. In the second example, the player and the obstacle are touching, but they don’t overlap.
 
+
+[<img src="collision_00__overlaping.png"/>]()
+
