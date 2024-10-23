@@ -71,3 +71,7 @@ We will be adding this 3 lines to the Player class
      self.speed = 500
      self.rect.center += self.direction * self.speed * dt
 ```
+
+### `self.rect = self.image.get_frect(center=pos)`
+
+ #### 🟢 This line creates a rectangle around our character’s image, helping Pygame know exactly where our player is on the screen.
