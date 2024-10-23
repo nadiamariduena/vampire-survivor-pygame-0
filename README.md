@@ -16,3 +16,5 @@
 ### Welcome to our new game project, where players will step into a thrilling world filled with vampires, 🦇 bats, and skeletons 💀!
 
 This game is designed to give players an engaging experience reminiscent of classic adventure titles like Zelda, but in a simpler format **suitable for beginners**.
+
+> #### Players will navigate through a beautifully crafted world, interacting with various objects and enemies, while honing their skills in combat and exploration.
