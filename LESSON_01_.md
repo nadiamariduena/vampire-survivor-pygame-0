@@ -43,3 +43,13 @@
 >   #### We will learn various techniques to manage interactions, such as when a player character encounters an enemy or picks up an item.
 
  This will enhance gameplay by providing feedback and consequences for player actions.
+
+<br>
+
+🟤**Camera Control:** A dynamic camera system can significantly improve the player's experience by providing a better view of the game world.
+
+>   #### We will explore how to implement a camera that follows the player, ensuring that the action remains centered while also allowing for smooth transitions and zooming effects.
+
+<br>
+
+🟤**Level Creation with an Editor:** Building levels manually can be time-consuming and inefficient.
