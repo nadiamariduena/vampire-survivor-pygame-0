@@ -71,3 +71,12 @@ In this project, we’ll introduce new concepts that differentiate it from our p
 > #### These lessons reflect my personal understanding and perspective on the topics we’ll cover.
 
 #### Even if you’re already familiar with some of the material, I encourage you to check out the accompanying video tutorials for a deeper insight. Everyone learns differently, and there’s always something new to discover!
+
+<br>
+
+### 🌈 Neurodivergent-friendly
+
+Additionally, this tutorial is neurodivergent-friendly.  🟡 I’ll be incorporating colors and emojis throughout to help maintain focus, 🧶 especially for those who may experience attention difficulties.
+
+
+### Let’s get started! 🚀
