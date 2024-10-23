@@ -462,3 +462,19 @@ Contains the **maps.tmx** file, which stores the game map data.
 **`<tileset>` elements specify the images used for the tiles:**
 
 >- - **firstgid:** The first **ID** of the tiles in this tileset, used for referencing them in the map.
+
+- - **source:** The path to the tileset file.
+
+<br>
+
+### 🟢 Layers:
+
+
+
+**`<layer>` elements define different layers in the map:**
+
+- - **id:** Unique identifier for the layer.
+
+- - **name:** Name of the layer (e.g., "Ground").
+
+- - **width and height:** Dimensions of the layer in tiles.
