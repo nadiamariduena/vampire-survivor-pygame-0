@@ -25,3 +25,8 @@
 ## 🟡  1.  Let's Add Input and Movement
 
 ### Now, we need to focus on two important things:
+
+- - **input** (handling the player's actions) and
+
+- - **movement** (moving the player around).
+
