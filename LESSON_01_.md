@@ -15,3 +15,8 @@
 <br>
 <br>
 <br>
+
+## 🟠 What We will be doing:
+
+### In this project, we will explore several key concepts essential for building a more sophisticated game.
+
