@@ -456,3 +456,9 @@ Contains the **maps.tmx** file, which stores the game map data.
 - **tilewidth and tileheight:** Size of each tile in pixels (e.g., 64x64 pixels).
 
 <br>
+
+### 🟢 Tilesets:
+
+**`<tileset>` elements specify the images used for the tiles:**
+
+>- - **firstgid:** The first **ID** of the tiles in this tileset, used for referencing them in the map.
