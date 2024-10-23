@@ -535,3 +535,9 @@ the gid (global ID) attribute represents the unique identifier for a tile in the
 - - **Each object** (like a rectangle, circle, or polygon) in a layer will have its own id, allowing the game engine to reference that particular object.
 
 - - - **This id is usually assigned incrementally** and is used internally for managing the object's properties.
+
+🟤 **gid:** The gid (global ID) specifically refers to the ID of a tile in a tileset.
+
+- - It tells the engine which tile to use when rendering that object.
+
+>In your example, gid="215" indicates that the object is associated with the 215th tile from the tileset.
