@@ -496,3 +496,13 @@ Contains the **maps.tmx** file, which stores the game map data.
 - - **name:** Name of the object (e.g., "Player", "Enemy").
 
 - - **x and y:** Coordinates for the object’s position on the map.
+
+<br>
+
+### 🟢 gid (global ID)
+
+the gid (global ID) attribute represents the unique identifier for a tile in the tileset.
+
+- - #### Each tile in a tileset has a global ID that allows the game engine to reference that specific tile when rendering the map.
+
+<br>
