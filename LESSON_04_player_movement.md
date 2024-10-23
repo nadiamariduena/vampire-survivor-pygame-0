@@ -91,3 +91,57 @@ We will be adding this 3 lines to the Player class
 > If we wanted them to look up or down, we could change this to something like **Vector2(0, -1)** or **Vector2(0, 1)**.
 
 This simple line provides our character with a clear path to follow (like a reliable compass)!
+
+<br>
+
+## 🟤 The Movement Magic 🌟
+
+- In the **move** method, we see this line:
+
+```python
+self.rect.center += self.direction * self.speed * dt
+```
+
+
+<br>
+
+
+## 🟤 Add it to the code
+
+```python
+class Player(pygame.sprite.Sprite):
+    def __init__(self, pos, groups):
+        super().__init__(groups)
+        self.image = pygame.image.load(join("../images", "player", "down", "0.png" )).convert_alpha()
+
+        self.rect = self.image.get_frect(center = pos)
+
+
+    # MOVEMENT
+        self.direction = pygame.Vector2(1,0) # A Vector2(1, 0) means the player is pointed to the right.
+
+
+        self.speed = 500
+        # The speed is set to 500, which means the character moves quite quickly.
+
+
+    def input(self):
+        pass
+
+    def move(self,dt):
+        self.rect.center += self.direction * self.speed * dt
+The speed is set to 500, which means the character moves quite quickly.
+    def update(self, dt):
+        self.input()
+        self.move(dt)
+```
+
+### Output
+
+#### 🔴 We have some movement but we can see the last frame
+
+[<img src="setup_player_game_01_moving-the-player.png"/>]()
+
+
+
+<br>
