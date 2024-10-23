@@ -63,3 +63,41 @@
 🟤**Animation Control:** Proper animation is vital for bringing characters and environments to life.
 
 >   #### We will learn how to manage animations effectively, including creating smooth transitions between different states (e.g., walking, jumping, attacking) and synchronizing them with game  mechanics.
+
+
+<br>
+<br>
+<br>
+<br>
+
+---
+
+# 🟦 Lets get started
+
+## 🟡 1. Project Setup
+
+**Visit the official page** [code-projects/5games](https://github.com/clear-code-projects/5games) and download the default project folders for the Vampire Game.
+
+#### Once downloaded, add these folders to your **repository**.
+
+<br>
+
+## 🟡 2. Checking Folders
+
+🟤 Before diving into the game development, **take some time to explore each folder** where images are stored.
+
+Here’s what you should look for:
+
+### 🟤 Images Folder:
+
+This folder contains images for the various characters, you will find them inside folders such as: player, enemies, gun.
+
+>#### Each image typically corresponds to different actions or directions, such as:
+
+- down
+
+- left
+
+- down.left
+
+- up
