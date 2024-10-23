@@ -490,3 +490,9 @@ Contains the **maps.tmx** file, which stores the game map data.
 #### `<objectgroup>` contains game entities (like characters and enemies):
 
 - - Each **`<object>`** represents an entity and includes attributes:
+
+- - - **id:** Unique identifier for the object.
+
+- - **name:** Name of the object (e.g., "Player", "Enemy").
+
+- - **x and y:** Coordinates for the object’s position on the map.
