@@ -111,3 +111,9 @@ This folder contains images for the various characters, you will find them insid
 An important folder containing the tile images used for the **game's background** and environment.
 
 <br>
+
+### 🟤 Maps Folder:
+
+Contains the **maps.tmx** file, which stores the game map data.
+
+> ### 🔴 This XML file defines how the game world is structured.
