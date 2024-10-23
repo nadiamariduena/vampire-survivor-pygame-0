@@ -531,3 +531,7 @@ the gid (global ID) attribute represents the unique identifier for a tile in the
 ### 🟫 In the context of your `.tmx` file, `id` and gid serve <u>different purposes:</u>
 
 🟤 **id:** This is a unique identifier for the specific object within the context of the layer or the map.
+
+- - **Each object** (like a rectangle, circle, or polygon) in a layer will have its own id, allowing the game engine to reference that particular object.
+
+- - - **This id is usually assigned incrementally** and is used internally for managing the object's properties.
