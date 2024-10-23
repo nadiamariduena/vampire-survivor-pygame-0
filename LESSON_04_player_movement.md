@@ -75,3 +75,9 @@ We will be adding this 3 lines to the Player class
 ### `self.rect = self.image.get_frect(center=pos)`
 
  #### 🟢 This line creates a rectangle around our character’s image, helping Pygame know exactly where our player is on the screen.
+
+>  #### The *`center=pos`* part means we’re placing that **square** right where we want our player to start.
+
+#### Think of it as putting our character in their perfect starting position!
+
+
