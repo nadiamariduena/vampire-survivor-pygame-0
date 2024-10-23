@@ -153,3 +153,13 @@ You will see your character is zipping to the right, and that shadow you’re se
 <br>
 
 🟤 **Explanation 1:** So, when you see your character running to the right with a sort of shadow behind them, <u>it’s because as the player moves, the previous positions linger for just a moment before disappearing</u> .
+
+> This creates that cool trailing effect, making it look like they’re zooming by just like a comet leaving a trail in the sky! 🌠
+
+<br>
+
+
+
+🟤 **Explanation 2:** As your player moves, it’s using a series of images (frames) to show movement.
+
+-  - **Each frame is a snapshot of the character in different positions**.
