@@ -152,6 +152,21 @@ game.run()  # Start the game loop.
 
 #### One key aspect of our project is that we will create multiple files as we develop the game.
 
+- To streamline our workflow, we want to ensure that we only need to run the `main.py` file to execute the entire game.
+
+<br>
+
+
+[3:51:37](https://youtu.be/8OMghdHP-zs?si=GwAqCM2--qjptW0C&t=13897)
+
+
+
+### This means that all necessary components like settings, game logic, and any other modules should be structured in a way that they are automatically imported and utilized when we run main.py.
+
+> - - #### 🌈  (This means that main.py should include code that pulls in everything we need from the other files)
+
+
+#### This approach not only simplifies the execution process but also enhances the organization of our code, allowing us to focus on development without the need to run each file individually.
 
 ---
 
