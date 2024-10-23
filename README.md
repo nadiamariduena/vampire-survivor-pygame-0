@@ -18,3 +18,11 @@
 This game is designed to give players an engaging experience reminiscent of classic adventure titles like Zelda, but in a simpler format **suitable for beginners**.
 
 > #### Players will navigate through a beautifully crafted world, interacting with various objects and enemies, while honing their skills in combat and exploration.
+
+#### The main objective is to defeat enemies by shooting 🔫 them, avoiding obstacles, and uncovering secrets within the game.
+
+
+
+
+<br>
+<br>
