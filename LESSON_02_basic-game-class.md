@@ -56,4 +56,32 @@ In the new code structure **(the code below)**, we see a shift towards encapsula
 
  Overall, this design pattern aligns with best practices in game development, paving the way for more complex features as we continue building the "Vampire Survivor" project.
 
+<br>
 
+## 🟡 2.  Define a Game class that initializes the `Pygame` library and sets up the game window.
+
+<br>
+
+```python
+class Game:
+    def __init__(self):
+        pygame.init()
+        self.display_surface = pygame.display.set_mode(WINDOW_WIDTH, WINDOW_HEIGHT)
+
+        pygame.display.set_caption('Survivor')
+        self.clock = pygame.time.Clock()
+        self.running = True
+
+    def run(self):
+        while  self.running:
+
+            # DT
+
+            # EVENT loop
+
+            # Update
+
+            # draw
+```
+
+<br>
