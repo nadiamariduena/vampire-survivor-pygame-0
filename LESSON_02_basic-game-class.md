@@ -43,5 +43,13 @@ In the new code structure **(the code below)**, we see a shift towards encapsula
 
 - - This organization promotes better code management and readability by grouping related functionality.
 
+> - - #### The use of instance methods, like run, allows for clearer separation of the game loop, event handling, updating, and rendering processes.
+
+
+### In contrast to the previous script...
+
+- In contrast to the previous script where functionality was spread throughout, this class based approach enhances modularity, making it easier to expand and maintain the game in the future.
+
+<br>
 
 
