@@ -81,3 +81,9 @@ We will be adding this 3 lines to the Player class
 #### Think of it as putting our character in their perfect starting position!
 
 
+
+### `self.direction = pygame.Vector2(1, 0)`
+
+####  Here, we’re defining which way our player is facing.
+
+> #### 🌈 A Vector2(1, 0) means the player is pointed to the right.
