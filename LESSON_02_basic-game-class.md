@@ -168,9 +168,22 @@ game.run()  # Start the game loop.
 
 #### This approach not only simplifies the execution process but also enhances the organization of our code, allowing us to focus on development without the need to run each file individually.
 
----
+
+
+## 🟡 3.  Using Conditional Execution for Game Development
+
+
+
+#### The line if `__name__ == '__main__':` is important because it ensures that the code inside it only runs when `main.py` is executed directly, not when it's imported as a module in another file.
 
 <br>
-<br>
-<br>
-<br>
+
+```python
+#  code at  the bottom of every file
+if __name__ == '__main__':
+     game = Game()
+     game.run()
+```
+
+> #### This means that `if someone imports this file` to use its classes or functions in a different program, `the game will not automatically start`.
+
