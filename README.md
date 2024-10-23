@@ -44,3 +44,17 @@ In this project, we’ll introduce new concepts that differentiate it from our p
 ```
 
 ### This system allows for more complex interactions and better management of game elements, paving the way for a more realistic gaming experience.
+
+>#### ✋ In contrast to the space shooter, where objects were primarily static and interacted in a limited way
+
+<br>
+<br>
+
+## 🟡 Learning Objectives
+
+
+
+### Collision Detection 💥
+
+> #### Players will learn to implement collision detection with objects and enemies, enabling immersive gameplay where every move matters.
+
