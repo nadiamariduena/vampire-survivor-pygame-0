@@ -129,3 +129,11 @@ join("image", "player", "down", "0.png")
 image/player/down/0.png
 ```
 <br>
+
+<!-- no public -->
+
+**"image":** This is the main folder where all your game assets (like images) are stored.
+
+**"player":** Inside the image folder, there’s another folder called player which holds all the player-related images.
+
+**"down":** Inside the player folder, you have subfolders for different directions `(up, down, left, right)`.
