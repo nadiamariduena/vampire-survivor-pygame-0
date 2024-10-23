@@ -151,3 +151,21 @@ from player import Player
 <br>
 
 ### 🟡  4. Create an Instance of the `Player` Class
+
+- To actually use the **`Player` class**, we need to create an **instance of it**.
+
+
+```python
+# ---- PLAYER
+self.player = Player()
+```
+>Think of an instance like a "real" player character in the game. You can create one like this:
+
+
+<br>
+
+### 🟢  But, remember, the Player class needs a couple of things to work properly
+
+  **Specifically**:
+
+- - the **position** and **groups** we passed in the `__init__()` method earlier:
