@@ -28,3 +28,18 @@ from os import walk
 WINDOW_WIDTH, WINDOW_HEIGHT = 1280,720
 TILE_SIZE = 64
 ```
+
+<br>
+<br>
+
+
+## 🟧 Transitioning to a More Organized Framework
+
+<br>
+
+### 🟤 Comparing the previous approach (Space Shooter)
+
+In the new code structure **(the code below)**, we see a shift towards encapsulating game logic within a dedicated Game class, which is a significant change from the previous approach [check the end of the page](https://github.com/nadiamariduena/python-intro-2024-privat/blob/master/z_PYgame/spaceship_game/RE_game-CODE_17_Debut-game_create_Sounds.md) .
+
+
+
