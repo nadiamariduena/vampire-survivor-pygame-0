@@ -28,3 +28,13 @@
 ## 🟠 Rectangular Collision Logic: Identifying Contact vs. Overlap
 
  **Rectangles, or "rects,"** can only tell us when they’re touching, but they don’t say what to do next.
+
+> #### To make the game interesting, we need to use that collision info to move the player around when they hit something. Let’s make those collisions work!
+
+
+
+
+<br>
+
+>In the image below, you'll see four boxes. In the first example, the player’s box overlaps with the obstacle’s box. In the second example, the player and the obstacle are touching, but they don’t overlap.
+
