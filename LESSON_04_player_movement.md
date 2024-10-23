@@ -52,3 +52,15 @@
         self.move(dt)  # Move the player based on input
 
 ```
+
+>This way, the player’s input and movement are checked and updated every frame!
+
+
+
+
+<br>
+<br>
+
+## 🟡  2. Defining the Player's Position and Movement Direction
+
+We will be adding this **3 lines** to the *`Player`* class
