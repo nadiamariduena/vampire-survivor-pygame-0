@@ -169,3 +169,15 @@ self.player = Player()
   **Specifically**:
 
 - - the **position** and **groups** we passed in the `__init__()` method earlier:
+
+```python
+class Player(pygame.sprite.Sprite):
+    def __init__(self, pos, groups):
+        super().__init__(groups)
+```
+>#### So, we need to pass both the position (where the player starts) and the groups (to organize our sprites) when we create the player instance.
+
+
+---
+
+<br>
