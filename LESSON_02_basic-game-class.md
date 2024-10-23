@@ -187,3 +187,66 @@ if __name__ == '__main__':
 
 > #### This means that `if someone imports this file` to use its classes or functions in a different program, `the game will not automatically start`.
 
+#### By placing `game = Game()` and `game.run()` <u>inside this conditional</u> , we can control when the game starts, making our code more flexible and preventing unintended execution.
+
+#### This practice helps maintain a clean and organized project structure.
+
+---
+
+
+## 🟦 Before moving on
+
+### We now have a basic game class
+
+```python
+# Import all settings defined in the settings.py file
+from settings import *
+
+# Define the Game class to encapsulate the game's functionality
+class Game:
+    def __init__(self):
+        # Initialize all pygame modules
+        pygame.init()
+
+        # Create a display surface with the specified window dimensions
+        self.display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+
+        # Set the title of the game window
+        pygame.display.set_caption('Survivor')
+
+        # Create a clock to manage the game's frame rate
+        self.clock = pygame.time.Clock()
+
+        # Initialize a running flag to control the game loop
+        self.running = True
+
+    def run(self):
+        # Main game loop that runs while the game is active
+        while self.running:
+            # Calculate the time since the last frame (in seconds)
+            dt = self.clock.tick() / 1000
+
+            # Handle events, such as user inputs and window actions
+            for event in pygame.event.get():
+                # Check if the user wants to quit the game
+                if event.type == pygame.QUIT:
+                    self.running = False  # Set running to False to exit the loop
+
+            # Update game state (placeholder for future updates)
+
+            # Draw the current frame to the display
+            pygame.display.update()
+
+        # Quit all pygame modules when the game loop ends
+        pygame.quit()
+
+# Check if this script is being run directly (not imported)
+if __name__ == '__main__':
+    # Create an instance of the Game class
+    game = Game()
+    # Start the game loop
+    game.run()
+
+```
+
+### Next step i will be creating the player class
