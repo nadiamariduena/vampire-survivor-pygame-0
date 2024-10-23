@@ -440,3 +440,12 @@ Contains the **maps.tmx** file, which stores the game map data.
 
 > #### The file begins with the ✋ XML declaration and the `<map>` tag, which specifies
 
+
+
+#### Important attributes:
+
+
+
+- **version:** Version of the map format.
+
+- **orientation:** Indicates how the map is oriented (e.g., orthogonal).
