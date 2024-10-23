@@ -214,3 +214,13 @@ self.player = Player(400, 300)
 ### 🟡  6. Create the First Group
 
 #### We now need to create the group where all our sprites (like the player) will go.
+
+> - #### To create an empty group, we can use this:
+
+```python
+self.all_sprites = pygame.sprite.Group()
+```
+
+### Putting It All Together
+
+Here’s how everything works in the Game class:
