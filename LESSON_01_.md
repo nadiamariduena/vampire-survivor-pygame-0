@@ -101,3 +101,13 @@ This folder contains images for the various characters, you will find them insid
 - down.left
 
 - up
+
+> #### Some images may be ✋ numbered for various animations ( enemies).
+
+<br>
+
+###  🟤 Tiles Folder:
+
+An important folder containing the tile images used for the **game's background** and environment.
+
+<br>
