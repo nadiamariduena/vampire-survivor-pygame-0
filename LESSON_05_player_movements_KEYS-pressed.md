@@ -24,3 +24,7 @@
 > #### When the player presses a key, the input is captured to determine the direction of movement.
 
 - -  This allows the game to respond to user actions, enabling smooth navigation across the game environment.
+
+>  #### The input is then processed to update the player's position accordingly.
+
+<br>
