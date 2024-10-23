@@ -35,3 +35,12 @@ In this project, we’ll introduce new concepts that differentiate it from our p
 > #### One key feature is the use of IDs to reference player positions.
 
 > This means that each element in the game whether it’s the **player, an enemy, or an object** will be assigned a **unique identifier (ID)**.
+
+```python
+ <data encoding="csv">
+42,42,42,42,42,42,42,42,42,42,42,42,
+
+  <object id="174" gid="214" x="705.333" y="1832" width="128" height="192"/>
+```
+
+### This system allows for more complex interactions and better management of game elements, paving the way for a more realistic gaming experience.
