@@ -145,3 +145,11 @@ The speed is set to 500, which means the character moves quite quickly.
 
 
 <br>
+
+## 🫐 Motion blur type
+
+You will see your character is zipping to the right, and that shadow you’re seeing behind the character looks like **"motion blur"** or a trail effect.
+
+<br>
+
+🟤 **Explanation 1:** So, when you see your character running to the right with a sort of shadow behind them, <u>it’s because as the player moves, the previous positions linger for just a moment before disappearing</u> .
