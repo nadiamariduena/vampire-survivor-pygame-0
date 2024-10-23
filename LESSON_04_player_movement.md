@@ -63,4 +63,11 @@
 
 ## 🟡  2. Defining the Player's Position and Movement Direction
 
-We will be adding this **3 lines** to the *`Player`* class
+We will be adding this 3 lines to the Player class
+
+```python
+     self.rect = self.image.get_frect(center = pos)
+     self.direction = pygame.Vector2(1,0)
+     self.speed = 500
+     self.rect.center += self.direction * self.speed * dt
+```
