@@ -163,3 +163,9 @@ You will see your character is zipping to the right, and that shadow you’re se
 🟤 **Explanation 2:** As your player moves, it’s using a series of images (frames) to show movement.
 
 -  - **Each frame is a snapshot of the character in different positions**.
+
+> - When the game runs, it draws these frames quickly, creating the illusion that your character is gliding smoothly.
+
+<br>
+
+#### Imagine a `flipbook`, if you flip through the pages fast enough, it looks like the pictures are moving!
