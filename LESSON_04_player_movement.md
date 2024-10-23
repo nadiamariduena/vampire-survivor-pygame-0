@@ -169,3 +169,50 @@ You will see your character is zipping to the right, and that shadow you’re se
 <br>
 
 #### Imagine a `flipbook`, if you flip through the pages fast enough, it looks like the pictures are moving!
+
+<br>
+
+[<img src="setup_player_game_01_moving-the-player.gif"/>]()
+
+<br>
+<br>
+
+## 🌈 Solution
+
+- Go to the Game class within the main.py
+
+- add this line: `self.display_surface.fill("black")`
+
+ <br>
+
+```python
+        # -- DRAW --
+            # Draw the current frame to the display
+            self.display_surface.fill("black") # ✋
+            self.all_sprites.draw(self.display_surface)
+
+            pygame.display.update()
+
+        # Quit all pygame modules when the game loop ends
+        pygame.quit()
+```
+
+ <br>
+
+[<img src="setup_player_game_02_moving-the-player_removing_last-frame.gif"/>]()
+
+
+<br>
+<br>
+
+## 🟦 Before moving on
+
+### 🟠 Remove the values within the vector (we only need it to test the char movements)
+
+```python
+# BEFORE
+self.direction = pygame.Vector2(1,0) # A Vector2(1, 0) means the player is pointed to the right.
+
+# AFTER
+self.direction = pygame.Vector2() # A Vector2(1, 0) means the player is pointed to the right.
+```
