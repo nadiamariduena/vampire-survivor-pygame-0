@@ -871,6 +871,7 @@ self.collision('vertical')
 
 > - - #### ( 🔴 remember: the obstacle also has left and right, up and down).
 
+> - - This helps us decide how to respond to the collision whether to stop the player or allow them to move in another direction.
 
 <br>
 <br>
