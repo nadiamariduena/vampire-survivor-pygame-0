@@ -117,3 +117,8 @@ When we’re checking if an enemy collides with the player, the enemy also has i
 <br>
 
 ## 🟡 Guide to Setting Up Collision Detection with Moving Objects
+
+
+### In this section, we'll walk through the process of adding collision detection between the player and other sprites in your game.
+
+ .
