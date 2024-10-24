@@ -883,3 +883,9 @@ self.collision('vertical')
 >### 🔺 Now, we need to check if the player is to the left of the obstacle.
 
 ### Why This Matters
+
+
+#### 🟤 In the image below, you can see both: the player and the obstacle, each with their own left and right sides marked.
+
+
+[<img src="collision_2_horizontal-vertical-axis_player_and_obstacle.png"/>]( )
