@@ -97,3 +97,7 @@ since those are moving, the collision logic would break.
 <br>
 
 ## 🟧 Collision between Two Moving Objects
+
+
+### When we’re dealing with collisions between two moving objects, we need a bit more logic.
+
