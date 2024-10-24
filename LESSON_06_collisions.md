@@ -383,3 +383,5 @@ self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
 
 ### When the player moves around the game, we want to ensure they can interact with the blocks properly.
 
+> -  #### 🌈 By telling the player about the collision sprites, we enable the game to check if the player is touching or overlapping any of the blocks.
+
