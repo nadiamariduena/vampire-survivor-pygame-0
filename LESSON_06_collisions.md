@@ -203,3 +203,8 @@ class CollisionsSprite(pygame.sprite.Sprite):
 
 ## 🟡 3.  Import the `Sprite` in `main.py`
 
+#### In your `main.py` file, you need to import the CollisionsSprite class so you can use it.
+
+```python
+from sprites import *
+```
