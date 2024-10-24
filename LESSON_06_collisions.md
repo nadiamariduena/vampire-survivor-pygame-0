@@ -71,3 +71,20 @@
 > - - This way, we can better understand the behavior of the collisions and determine how to respond to them effectively.
 
 [4:02:40](https://youtu.be/8OMghdHP-zs?si=Uj8rhmTMwlaWYwyZ&t=14560)
+
+[<img src="chec_collision_left_or_right.png"/>](https://youtu.be/8OMghdHP-zs?si=Uj8rhmTMwlaWYwyZ&t=14560)
+
+
+
+<br>
+<br>
+<br>
+
+---
+
+## 🔴 Problems with this approach
+
+### The main issue with this approach is that<u>it only works if a single object is moving</u>   (not the enemy),
+
+<br>
+
