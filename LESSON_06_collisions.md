@@ -381,3 +381,5 @@ self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
 
 ## 🔴  But why do we need to do this?
 
+### When the player moves around the game, we want to ensure they can interact with the blocks properly.
+
