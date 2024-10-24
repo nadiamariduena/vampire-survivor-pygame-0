@@ -636,3 +636,9 @@ for i in range(6):
     self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
 TypeError: __init__() takes 3 positional arguments but 4 were given
 ```
+### What’s Happening Here?
+
+#### 🔴 This error is telling you that the Player class is expecting 3 arguments, but it thinks you’re giving it 4. Let’s dig deeper to see what’s causing this confusion!
+
+<br>
+<br>
