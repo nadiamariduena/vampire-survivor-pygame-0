@@ -389,8 +389,97 @@ self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
 
 >#### 🔺  This is essential for the game logic `like stopping the player from walking through walls or detecting when they hit obstacles`.
 
->#### 🔺 If we don’t provide this information, the player might just pass through the blocks without any interaction, which can make the game feel unrealistic and unpolished.
+> -  - 🔺 If we don’t provide this information, the player might just pass through the blocks without any interaction, which can make the game feel unrealistic and unpolished.
 
 
 
-### So, by including the collision group when we create the player, we help the game manage these important interactions and create a smoother gameplay experience.
+#### So, by including the collision group when we create the player, we help the game manage these important interactions and create a smoother gameplay experience.
+
+<br>
+<br>
+
+## 🟦 Before Moving on
+
+- this is the code we current have
+
+```python
+# Import all settings defined in the settings.py file
+from settings import *
+from player import Player
+from sprites import *
+
+from random import randint
+
+# Define the Game class to encapsulate the game's functionality
+class Game:
+    def __init__(self):
+        # Initialize all pygame modules
+        pygame.init()
+
+
+        # --- SETUP ------
+        # Create a display surface with the specified window dimensions
+        self.display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+        # Set the title of the game window
+        pygame.display.set_caption('Survivor')
+        # Create a clock to manage the game's frame rate
+        self.clock = pygame.time.Clock()
+        # Initialize a running flag to control the game loop
+        self.running = True
+        # --- SETUP ------
+
+        # GROUPS
+        self.all_sprites = pygame.sprite.Group()
+        # blue cube instances
+        self.collision_sprites = pygame.sprite.Group()
+
+        # SPRITES
+        # player
+        self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
+
+        # random blue cubes
+        for i in range(6):
+
+            x,y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
+
+            # blue cube w,h
+            w,h = randint(60, 100), randint(50, 100)
+            # randint allows you to create boxes of different sizes each time the game runs.
+
+            CollisionsSprite((x,y), (w,h), (self.all_sprites, self.collision_sprites))
+
+
+
+    def run(self):
+        # Main game loop that runs while the game is active
+        while self.running:
+            # Calculate the time since the last frame (in seconds)
+            dt = self.clock.tick() / 1000
+
+            # Handle events, such as user inputs and window actions
+            for event in pygame.event.get():
+                # Check if the user wants to quit the game
+                if event.type == pygame.QUIT:
+                    self.running = False  # Set running to False to exit the loop
+
+            # Update game state (placeholder for future updates)
+            self.all_sprites.update(dt)
+
+            # -- DRAW --
+            # Draw the current frame to the display
+            self.display_surface.fill("black")
+            self.all_sprites.draw(self.display_surface)
+
+            pygame.display.update()
+
+        # Quit all pygame modules when the game loop ends
+        pygame.quit()
+
+# Check if this script is being run directly (not imported)
+if __name__ == '__main__':
+    # Create an instance of the Game class
+    game = Game()
+    # Start the game loop
+    game.run()
+
+```
