@@ -173,3 +173,18 @@ When we’re checking if an enemy collides with the player, the enemy also has i
 ## 🟡 2.  Set Up a Basic Block Sprite
 
 ### Now, let’s create a basic block 🧊 (a blue rectangle) that we can use for collisions.
+
+```python
+from settings import *
+
+class CollisionsSprite(pygame.sprite.Sprite):
+    def __init__(self, pos, size, groups):
+        super().__init__(groups)
+
+        # --- a blue block surface
+
+        self.image = pygame.Surface(size)
+        self.image.fill('blue')
+        self.rect = self.image.get_frect(center = pos)
+```
+
