@@ -102,3 +102,5 @@ since those are moving, the collision logic would break.
 ### When we’re dealing with collisions between two moving objects, we need a bit more logic.
 
 > #### Think of it like the way a [ parrot fish](https://youtu.be/zdzAUQ4juH4?si=zPQ-hA0ufLFrn9KV) creates a "bubble" around itself to protect from parasites.
+
+This bubble is kind of like the hitbox we need for our objects. So, imagine this bubble in terms of X (left/right) and Y (top/bottom) coordinates.
