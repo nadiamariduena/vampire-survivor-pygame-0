@@ -197,3 +197,9 @@ class CollisionsSprite(pygame.sprite.Sprite):
 
 
 > #### 🟤 Note: At this point, the block’s position and size will be controlled from the main game (main.py), not here in sprites.py.
+
+<br>
+<br>
+
+## 🟡 3.  Import the `Sprite` in `main.py`
+
