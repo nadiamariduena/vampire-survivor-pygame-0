@@ -841,3 +841,7 @@ self.rect.x += self.direction.x * self.speed * dt
 
 self.collision('horizontal')
 
+self.rect.y += self.direction.y * self.speed * dt
+
+self.collision('vertical')
+```
