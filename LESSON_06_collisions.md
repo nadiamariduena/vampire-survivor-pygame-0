@@ -630,3 +630,9 @@ for i in range(6):
 ## 🟡 10.  Understanding the Error
 
 #### If you try to run the code right now, you'll encounter this error message:
+
+```python
+  File "main.py", line 33, in __init__
+    self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
+TypeError: __init__() takes 3 positional arguments but 4 were given
+```
