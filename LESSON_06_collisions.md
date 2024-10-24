@@ -819,4 +819,11 @@ class Player(pygame.sprite.Sprite):
 
 It enhances the overall control and fluidity of game!
 
+<br>
+
 ### 🟥 🟣 Question: Wasn’t the player already performing that with the original line?
+
+#### ✅ chatgpt:
+
+ - **Yes**, the original line does allow for simultaneous movement in both directions. **However**, 🟥 it **combines them** into **one** calculation, **which can make it harder** to manage collisions or fine-tune movement behavior later on.
+
