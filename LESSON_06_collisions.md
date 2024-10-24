@@ -593,3 +593,6 @@ for i in range(6):
 
 > - - Each cube will have a different size because of randint.
 
+### Adding to Groups:
+
+#### 🔴 🔴Each cube is added to both self.all_sprites and self.collision_sprites, meaning they can bump into things and be part of the game!
