@@ -41,3 +41,4 @@
 
 [<img src="collision_00__overlaping.png"/>]()
 
+>Images source: Master Python by making 5 games [the new ultimate introduction to pygame]
