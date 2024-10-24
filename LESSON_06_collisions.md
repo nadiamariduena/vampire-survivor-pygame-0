@@ -650,3 +650,6 @@ TypeError: __init__() takes 3 positional arguments but 4 were given
 **Next**, open up the Player.py file.
 
 #### What to Look For
+
+ #### In this file, you’ll find the definition of the Player class, and it should look something like this:
+
