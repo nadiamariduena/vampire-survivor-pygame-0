@@ -385,3 +385,5 @@ self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
 
 > -  #### 🌈 By telling the player about the collision sprites, we enable the game to check if the player is touching or overlapping any of the blocks.
 
+>#### 🔺  This is essential for gameplay mechanics like stopping the player from walking through walls or detecting when they hit obstacles.
+
