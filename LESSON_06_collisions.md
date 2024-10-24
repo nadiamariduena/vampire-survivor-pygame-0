@@ -59,3 +59,4 @@
 
 ### To figure out where the collision is happening, we need to break it down:
 
+> ####  We <u>check for collisions separately</u>  on the horizontal (left and right) and vertical (up and down) axes.
