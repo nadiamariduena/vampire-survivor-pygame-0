@@ -671,3 +671,8 @@ class Player(pygame.sprite.Sprite):
 
 - **Modify** the `__init__` method **to include** `collision_sprites` as a third argument:
 
+```python
+class Player(pygame.sprite.Sprite):
+    def __init__(self, pos, groups, collision_sprites):
+```
+>Now, we’re set up to handle collisions properly!
