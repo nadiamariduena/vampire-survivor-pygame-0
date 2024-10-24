@@ -511,3 +511,10 @@ CollisionsSprite((x,y), (w,h), (self.all_sprites, self.collision_sprites))
 # This allows the player to check for potential collisions with other sprites while not being included in the collision checks themselves.
 ```
 <br>
+
+
+## 🟠 Let's Recap
+
+### 🟢  1. Adding Sprites to Groups
+
+#### In the first part of our code, we have two groups where we keep track of different objects in the game:
