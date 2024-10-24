@@ -321,3 +321,8 @@ CollisionsSprite((x,y), (w,h), self.all_sprites)
 
 ### 🔴 We need a way to manage our collision blocks, so let's create a new sprite group.
 
+> #### This `group` will help us keep track of all the blocks in one place.
+
+
+ - 🍭 Create the collision group
+
