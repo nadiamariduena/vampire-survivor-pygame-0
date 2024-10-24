@@ -483,3 +483,16 @@ if __name__ == '__main__':
     game.run()
 
 ```
+
+<br>
+<br>
+<br>
+
+
+
+
+## 🟡 9. Be Careful with These Last Two Lines!
+
+### 💥 These two lines of code serve distinct purposes in the game's logic and object management.
+
+- DON'T ignore the recap below
