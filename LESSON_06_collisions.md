@@ -767,6 +767,20 @@ class Player(pygame.sprite.Sprite):
 # This line updates the player’s position by adjusting the center of their rectangle based on their direction, speed, and the time passed (dt). It’s essential for creating smooth movement in the game!
 ```
 
+
+<br>
+
+### Let’s Modify the Code
+
+## Duplicate
+
+🟤  **First**, `duplicate` the line:
+
+```python
+    def move(self,dt):
+        self.rect.center += self.direction * self.speed * dt
+```
+
 ### 🔴 Why Split It Up?
 
 #### While this line looks neat, <u> it’s not the best way to handle movement</u> in our game.
@@ -777,16 +791,7 @@ class Player(pygame.sprite.Sprite):
 
 ### 🌈 By <u>splitting</u>  the movement into `horizontal (x-axis) and vertical (y-axis)` parts, we can make our player move more smoothly and accurately!
 
-<br>
 
-### Let’s Modify the Code
-
-🟤  **First**, `duplicate` the line:
-
-```python
-    def move(self,dt):
-        self.rect.center += self.direction * self.speed * dt
-```
 <br>
 
 🟤 **Now**, let’s change it to this:
@@ -845,3 +850,10 @@ self.rect.y += self.direction.y * self.speed * dt
 
 self.collision('vertical')
 ```
+<br>
+
+## 🟠 Why Do We Need to Split It Up?
+
+### By calling the horizontal and vertical axes, we can handle collisions more accurately.
+
+- - This means we can determine exactly how the player interacts with obstacles in the game world.
