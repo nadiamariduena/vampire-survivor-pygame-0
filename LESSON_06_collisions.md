@@ -988,3 +988,5 @@ if direction == 'horizontal':
 
 > 🔴 In the image below, you can see that when I try to move through the box from the left or right, I can’t get through. However, if I approach the box from above or below, I still overlap with it.
 
+[<img src="Implementing_Horizontal_Collision_Response.gif"/>]( )
+
