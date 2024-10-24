@@ -690,3 +690,9 @@ class Player(pygame.sprite.Sprite):
 ### Storing the Argument
 
 In the same `Player` **class**, add this line to store the `collision_sprites`:
+
+```python
+ self.collision_sprites = collision_sprites
+```
+
+### Why This Matters
