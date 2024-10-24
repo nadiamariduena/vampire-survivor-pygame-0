@@ -908,3 +908,19 @@ self.collision('vertical')
 🟩 This example clearly shows how the player and obstacle interact when there’s a collision.
 
 [<img src="collision_3_horizontal-vertical-axis_player_and_obstacle.png"/>]( )
+
+
+
+<br>
+<br>
+
+
+
+## 🟡 20.  Getting All the Obstacles
+
+<br>
+
+## Collision Detection
+
+#### In this step, we are setting up the collision detection method to check if the player is overlapping with any obstacles in the game.
+
