@@ -875,3 +875,11 @@ self.collision('vertical')
 
 <br>
 <br>
+
+#### [4:10:40](https://youtu.be/8OMghdHP-zs?si=IHxEP-NA3JHYeI2s&t=15040)
+
+## 🟡 18. Determining the Player’s Position Relative to the Obstacle
+
+>### 🔺 Now, we need to check if the player is to the left of the obstacle.
+
+### Why This Matters
