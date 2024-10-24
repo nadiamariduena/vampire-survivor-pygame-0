@@ -573,3 +573,15 @@ self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
 
 - **Now**, let's see how we create the collision sprites:
 
+```python
+# Randomly create blue cubes
+for i in range(6):
+    x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
+
+    # Random width and height for the cubes
+    w, h = randint(60, 100), randint(50, 100)  # Different sizes each time
+
+    # Create a collision sprite
+    CollisionsSprite((x, y), (w, h), (self.all_sprites, self.collision_sprites))
+
+```
