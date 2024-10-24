@@ -188,3 +188,8 @@ class CollisionsSprite(pygame.sprite.Sprite):
         self.rect = self.image.get_frect(center = pos)
 ```
 
+
+<br>
+
+- #### This defines a new sprite (CollisionsSprite) that represents a block.
+
