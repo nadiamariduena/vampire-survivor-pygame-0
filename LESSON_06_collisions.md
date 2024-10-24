@@ -310,3 +310,4 @@ CollisionsSprite((x,y), (w,h), self.all_sprites)
 
 [<img src="collision_00__randome_blue_boses-no-coll_yet.gif"/>]( )
 
+> #### At the moment, there’s no collision detection in place, so the player passes right through the obstacle.
