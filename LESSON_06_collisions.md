@@ -344,3 +344,13 @@ self.collision_sprites = pygame.sprite.Group()
 ```python
 CollisionsSprite((x,y), (w,h), (self.all_sprites, self.collision_sprites))
 ```
+
+#### Here’s how it changes
+
+```python
+#before
+CollisionsSprite((x,y), (w,h), self.all_sprites)
+
+#after
+CollisionsSprite((x,y), (w,h), (self.all_sprites, self.collision_sprites))
+```
