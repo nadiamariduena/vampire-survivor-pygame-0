@@ -976,3 +976,8 @@ if direction == 'horizontal':
         self.rect.left = sprite.rect.right
 
 ```
+
+### Summary
+
+#### In this step, we implement the logic for horizontal collisions, determining how the player should respond when colliding with obstacles from the left or right.
+
