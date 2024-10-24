@@ -744,7 +744,7 @@ class Player(pygame.sprite.Sprite):
 
 ### What’s Happening?
 
-> #### We’ll create a method called collision, but for now, we’ll keep it simple with `pass`.
+> #### We’ll create a `method` called `collision`, but for now, we’ll keep it simple with `pass`.
 
 - **This means we’re not doing anything** just **yet** because we still need to focus on the movement logic first.
 
@@ -786,4 +786,15 @@ class Player(pygame.sprite.Sprite):
 ```python
     def move(self,dt):
         self.rect.center += self.direction * self.speed * dt
+```
+<br>
+
+🟤 **Now**, let’s change it to this:
+
+```python
+    def move(self,dt):
+        # self.rect.center += self.direction * self.speed * dt # before
+        self.rect.x += self.direction.x * self.speed * dt
+
+        self.rect.y += self.direction.y * self.speed * dt
 ```
