@@ -934,3 +934,13 @@ self.collision('vertical')
 
 > - #### Before we can properly manage collisions in our game, we need to identify all the obstacles present.
 
+
+```python
+def collision(self, direction):
+    # Iterate through each sprite in the collision_sprites group
+    for sprite in self.collision_sprites:
+        # Check if the player's rectangle overlaps with the current sprite's rectangle
+        if sprite.rect.colliderect(self.rect):
+            print("overlap")  # Print a message if there's an overlap
+
+```
