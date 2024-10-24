@@ -905,3 +905,5 @@ self.collision('vertical')
 
 > -  #### 🔴 🔴 (note: the circle is just for illustration). I've added a yellow drop shadow on the right side of the player, which overlaps the left side of the circle.
 
+🟩 This example clearly shows how the player and obstacle interact when there’s a collision.
+
