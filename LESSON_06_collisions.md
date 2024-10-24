@@ -143,3 +143,11 @@ When we’re checking if an enemy collides with the player, the enemy also has i
 
 <br>
 <br>
+
+<br>
+<br>
+
+# 🟦 Lets get started:
+
+## 🟡   Set Up Your Code Structure
+
