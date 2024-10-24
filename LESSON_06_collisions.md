@@ -760,10 +760,17 @@ class Player(pygame.sprite.Sprite):
 
 - At the moment, it looks like this:
 
-- currently we have this
 
 ```python
     def move(self,dt):
         self.rect.center += self.direction * self.speed * dt
 # This line updates the player’s position by adjusting the center of their rectangle based on their direction, speed, and the time passed (dt). It’s essential for creating smooth movement in the game!
 ```
+
+### 🔴 Why Split It Up?
+
+#### While this line looks neat, it’s not the best way to handle movement in our game.
+
+> -  #### If we keep it all in one line, we won’t have enough control over how the player moves left and right versus up and down.
+
+### 🌈 By splitting the movement into horizontal (x-axis) and vertical (y-axis) parts, we can make our player move more smoothly and accurately!
