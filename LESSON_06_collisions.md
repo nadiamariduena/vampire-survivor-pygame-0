@@ -294,3 +294,8 @@ x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
 - We can also make the **blocks different sizes each time**.
 
 > #### To do this, use randint() to generate random width and height:
+
+```python
+w,h = randint(60, 100), randint(50, 100)
+# > 🔴 randint allows you to create boxes of different sizes each time the game runs.
+```
