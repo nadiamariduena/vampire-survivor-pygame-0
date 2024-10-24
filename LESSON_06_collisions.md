@@ -60,3 +60,11 @@
 ### To figure out where the collision is happening, we need to break it down:
 
 > ####  We <u>check for collisions separately</u>  on the horizontal (left and right) and vertical (up and down) axes.
+
+
+<br>
+
+### 🌈 let’s go one by one!
+
+- We’ll **check from left to right** to observe how the player interacts with obstacles.
+
