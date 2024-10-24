@@ -232,3 +232,6 @@ for i in range(6):
 
 - **`self.all_sprites`** is the group of all sprites (including the player, enemies, etc.).
 
+<br>
+
+> #### 🟤 Note: We’ll randomize the position and size of these blocks later, so they appear in different locations and have different sizes.
