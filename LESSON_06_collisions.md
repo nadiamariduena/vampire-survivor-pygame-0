@@ -354,3 +354,12 @@ CollisionsSprite((x,y), (w,h), self.all_sprites)
 #after
 CollisionsSprite((x,y), (w,h), (self.all_sprites, self.collision_sprites))
 ```
+
+<br>
+
+## 🟡 8.  Link the Player to the Collision Group
+
+### 🔴 Finally, we need to let the player know where all the collision sprites are.
+
+> #### This way, the player can interact properly with the blocks.
+
