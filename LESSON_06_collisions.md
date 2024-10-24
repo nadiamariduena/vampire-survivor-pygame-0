@@ -90,3 +90,5 @@
 
 > ### 🟥 for example at the moment the player can only collide with: trees, rocks and the hills (because they are static),
 
+- ### 🔺 the player cannot collide with any of the enemies
+
