@@ -496,3 +496,18 @@ if __name__ == '__main__':
 ### 💥 These two lines of code serve distinct purposes in the game's logic and object management.
 
 - DON'T ignore the recap below
+
+
+> #### Let’s look at them closely
+
+```python
+# line 1
+self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
+# This line creates an instance of the Player class and adds it to the self.all_sprites group, allowing it to be managed alongside all game objects.
+
+# line 2
+#By passing self.collision_sprites as an argument, the player gains access to the collision detection logic without being a direct member of that group.
+CollisionsSprite((x,y), (w,h), (self.all_sprites, self.collision_sprites))
+# This allows the player to check for potential collisions with other sprites while not being included in the collision checks themselves.
+```
+<br>
