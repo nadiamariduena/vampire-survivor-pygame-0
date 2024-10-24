@@ -550,3 +550,8 @@ self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
 
 ### 🔴 What’s Happening Here?
 
+- **Here, we create the player** and add them to the `self.all_sprites` **group**.
+
+-  - This means the player is part of all the sprites in the game.
+
+### 🔴 🔴 Access to Collision Sprites:
