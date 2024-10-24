@@ -156,3 +156,12 @@ When we’re checking if an enemy collides with the player, the enemy also has i
 > - #### 🍨 To fix this, we need to add some obstacles or blocks 🧊 to collide with.
 
 #### So, let's create a new sprite (or rectangle) that we can use for collision.
+
+
+<br>
+
+
+###  🟡 1.  Create the `sprites.py` File
+
+
+
