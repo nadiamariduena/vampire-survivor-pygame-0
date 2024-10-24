@@ -564,3 +564,12 @@ self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
 > #### This means the player can know about the objects that might collide with them, even though they aren’t actually in that group.
 
 #### It's like having a friend who can see the toys in another box but isn’t playing with them directly.
+
+
+<br>
+
+### 🟢 3. Creating Collision Sprites
+
+
+- **Now**, let's see how we create the collision sprites:
+
