@@ -869,6 +869,8 @@ self.collision('vertical')
 
 > - - ### If a collision comes from the right side, we need to check if the player is to the left of the obstacle
 
+> - - #### ( 🔴 remember: the obstacle also has left and right, up and down).
+
 
 <br>
 <br>
