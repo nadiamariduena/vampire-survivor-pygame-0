@@ -326,3 +326,7 @@ CollisionsSprite((x,y), (w,h), self.all_sprites)
 
  - 🍭 Create the collision group
 
+```python
+self.collision_sprites = pygame.sprite.Group()
+# This group will contain all the CollisionsSprite objects, making it easier to check for collisions later on.
+```
