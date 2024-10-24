@@ -263,3 +263,15 @@ x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
  **`WINDOW_WIDTH and WINDOW_HEIGHT`** are the dimensions of the game window.
 
 > This will randomly place the blocks within the visible area of the screen.
+
+
+#### Putting it together:
+
+```python
+   for i in range(6):
+
+            x,y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
+
+            CollisionsSprite(pos, size, self.all_sprites)
+```
+<br>
