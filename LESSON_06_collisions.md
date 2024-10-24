@@ -903,3 +903,5 @@ self.collision('vertical')
 
 #### In the image below, you can see the player’s rectangle and the obstacle’s circular area
 
+> -  #### 🔴 🔴 (note: the circle is just for illustration). I've added a yellow drop shadow on the right side of the player, which overlaps the left side of the circle.
+
