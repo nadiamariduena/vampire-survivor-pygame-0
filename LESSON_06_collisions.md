@@ -769,8 +769,21 @@ class Player(pygame.sprite.Sprite):
 
 ### 🔴 Why Split It Up?
 
-#### While this line looks neat, it’s not the best way to handle movement in our game.
+#### While this line looks neat, <u> it’s not the best way to handle movement</u> in our game.
 
-> -  #### If we keep it all in one line, we won’t have enough control over how the player moves left and right versus up and down.
+> -  #### `If` we keep it all in one line, we won’t have enough control over how the player moves left and right versus up and down.
 
-### 🌈 By splitting the movement into horizontal (x-axis) and vertical (y-axis) parts, we can make our player move more smoothly and accurately!
+<br>
+
+### 🌈 By <u>splitting<u>  the movement into horizontal (x-axis) and vertical (y-axis) parts, we can make our player move more smoothly and accurately!
+
+<br>
+
+### Let’s Modify the Code
+
+🟤  **First**, `duplicate` the line:
+
+```python
+    def move(self,dt):
+        self.rect.center += self.direction * self.speed * dt
+```
