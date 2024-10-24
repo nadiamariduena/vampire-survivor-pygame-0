@@ -275,3 +275,14 @@ x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
             CollisionsSprite(pos, size, self.all_sprites)
 ```
 <br>
+
+
+#### 🟤3. Replace the position placeholder with the random values:
+
+```python
+# before
+ CollisionsSprite(pos, size, self.all_sprites)
+
+# after
+ CollisionsSprite((x,y), size, self.all_sprites)
+```
