@@ -1,0 +1,11 @@
+from settings import *
+
+class CollisionsSprite(pygame.sprite.Sprite):
+    def __init__(self, pos, size, groups):
+        super().__init__(groups)
+
+        # --- a blue block surface
+
+        self.image = pygame.Surface(size)
+        self.image.fill('blue')
+        self.rect = self.image.get_frect(center = pos)
