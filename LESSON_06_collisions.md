@@ -839,4 +839,5 @@ It enhances the overall control and fluidity of game!
 ```python
 self.rect.x += self.direction.x * self.speed * dt
 
+self.collision('horizontal')
 
