@@ -944,3 +944,19 @@ def collision(self, direction):
             print("overlap")  # Print a message if there's an overlap
 
 ```
+
+### output
+
+- Pay attention to the console. When I pass through the box, it mentions an overlap
+
+[<img src="collisions_overlapping.gif"/>]( )
+
+
+<br>
+<br>
+
+## 🟡 21. Implementing Horizontal Collision Response
+
+- Finalizing the Logic for Side Collisions
+
+> #### 🟥 In this step, we’re adding the logic to handle what happens when the player collides with obstacles from the sides (left or right).
