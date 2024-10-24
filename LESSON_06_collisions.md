@@ -41,4 +41,12 @@
 
 [<img src="collision_00__overlaping.png"/>]()
 
->Images source: Master Python by making 5 games [the new ultimate introduction to pygame]
+>Images source: Master Python by making 5 games **[the new ultimate introduction to pygame]**
+
+<br>
+
+#### [4:01:39](https://youtu.be/8OMghdHP-zs?si=QiA4CxKXIDEjB5vb&t=14499)
+
+## 🔴 The complication
+
+#### When a collision happens, we can’t tell exactly where it’s occurring. It could be at the bottom, the top, or any side of the player. Check out the image below for a clearer idea!
