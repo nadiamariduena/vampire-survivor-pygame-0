@@ -687,3 +687,6 @@ class Player(pygame.sprite.Sprite):
 
 - **Now**, let's make sure the player can use this new collision information
 
+### Storing the Argument
+
+In the same `Player` **class**, add this line to store the `collision_sprites`:
