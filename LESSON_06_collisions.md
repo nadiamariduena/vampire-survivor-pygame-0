@@ -932,3 +932,5 @@ self.collision('vertical')
 
 ## 🍓 Gathering Obstacles for Collision Detection
 
+> - #### Before we can properly manage collisions in our game, we need to identify all the obstacles present.
+
