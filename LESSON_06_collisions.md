@@ -151,3 +151,5 @@ When we’re checking if an enemy collides with the player, the enemy also has i
 
 ## 🟡   Set Up Your Code Structure
 
+### Right now, we don't have anything for the player to collide with.
+
