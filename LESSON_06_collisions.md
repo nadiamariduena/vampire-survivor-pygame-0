@@ -518,3 +518,13 @@ CollisionsSprite((x,y), (w,h), (self.all_sprites, self.collision_sprites))
 ### 🟢  1. Adding Sprites to Groups
 
 #### In the first part of our code, we have two groups where we keep track of different objects in the game:
+
+
+```python
+# GROUPS
+self.all_sprites = pygame.sprite.Group()
+# This group holds all sprites
+self.collision_sprites = pygame.sprite.Group()
+# This group holds objects that can collide
+
+```
