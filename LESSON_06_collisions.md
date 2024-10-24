@@ -195,3 +195,5 @@ class CollisionsSprite(pygame.sprite.Sprite):
 
 - #### It has a position (pos), size (size), and a rectangle (rect) that will help us detect collisions.
 
+
+> #### 🟤 Note: At this point, the block’s position and size will be controlled from the main game (main.py), not here in sprites.py.
