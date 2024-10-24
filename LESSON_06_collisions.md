@@ -896,3 +896,10 @@ self.collision('vertical')
 ## 🟡 19. Adjusting the Player's Position on Collision
 
 #### 🔺 If the player is overlapping the left side of the obstacle, we want to move the player a bit further left to prevent sticking to the obstacle.
+
+<br>
+
+### 🌈 Visual Example
+
+#### In the image below, you can see the player’s rectangle and the obstacle’s circular area
+
