@@ -123,3 +123,13 @@ When we’re checking if an enemy collides with the player, the enemy also has i
 
 > #### You'll learn how to create and manage collision objects like blocks, randomize their positions and sizes, and set up a system to check for overlaps between the player and these objects.
 
+#### 🟧 This will allow your game to respond when the player hits or interacts with obstacles.
+
+
+
+### Summary:
+
+- **Create sprites.py:** A file to store your block (and other) sprites.
+
+- **Set Up Block Sprite:** Define a basic blue block (hitbox) that the player will collide with.
+
