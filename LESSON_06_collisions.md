@@ -88,3 +88,5 @@
 
 <br>
 
+> ### 🟥 for example at the moment the player can only collide with: trees, rocks and the hills (because they are static),
+
