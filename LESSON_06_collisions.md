@@ -596,3 +596,36 @@ for i in range(6):
 ### Adding to Groups:
 
 #### 🔴 🔴Each cube is added to both self.all_sprites and self.collision_sprites, meaning they can bump into things and be part of the game!
+
+
+
+
+<br>
+
+```python
+        # GROUPS
+        self.all_sprites = pygame.sprite.Group()
+        # blue cube instances
+        self.collision_sprites = pygame.sprite.Group()
+
+        # SPRITES
+        # player
+        # This line below creates an instance of the Player class and adds it to the self.all_sprites group, allowing it to be managed alongside all game objects.
+        self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
+
+        # random blue cubes
+        for i in range(6):
+            x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
+
+            # Random width and height for the cubes
+            w, h = randint(60, 100), randint(50, 100)  # Different sizes each time
+
+            # Create a collision sprite
+            CollisionsSprite((x, y), (w, h), (self.all_sprites, self.collision_sprites))
+            # By passing self.collision_sprites as an argument, the player gains access to the collision detection logic without being a direct member of that group. This allows the player to check for potential collisions with other sprites while not being included in the collision checks themselves.
+```
+
+<br>
+
+## 🟡 10.  Understanding the Error
+
