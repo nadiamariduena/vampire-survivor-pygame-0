@@ -960,3 +960,19 @@ def collision(self, direction):
 - Finalizing the Logic for Side Collisions
 
 > #### 🟥 In this step, we’re adding the logic to handle what happens when the player collides with obstacles from the sides (left or right).
+
+<br>
+
+```python
+if direction == 'horizontal':
+    # Check if the player is moving to the right
+    if self.direction.x > 0:
+        # If so, set the player's right side to the left side of the obstacle
+        self.rect.right = sprite.rect.left
+
+    # Check if the player is moving to the left
+    if self.direction.x < 0:
+        # If so, set the player's left side to the right side of the obstacle
+        self.rect.left = sprite.rect.right
+
+```
