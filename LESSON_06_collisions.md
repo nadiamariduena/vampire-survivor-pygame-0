@@ -307,3 +307,6 @@ CollisionsSprite((x,y), size, self.all_sprites)
 # after
 CollisionsSprite((x,y), (w,h), self.all_sprites)
 ```
+
+[<img src="collision_00__randome_blue_boses-no-coll_yet.gif"/>]( )
+
