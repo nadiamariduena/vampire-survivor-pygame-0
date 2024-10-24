@@ -68,3 +68,6 @@
 
 - We’ll **check from left to right** to observe how the player interacts with obstacles.
 
+> - - This way, we can better understand the behavior of the collisions and determine how to respond to them effectively.
+
+[4:02:40](https://youtu.be/8OMghdHP-zs?si=Uj8rhmTMwlaWYwyZ&t=14560)
