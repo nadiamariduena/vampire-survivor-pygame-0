@@ -752,7 +752,7 @@ class Player(pygame.sprite.Sprite):
 <br>
 <br>
 
-## 🟡 15. Let’s Take a Look at the Move Method
+## 🟡 15. the `Move` Method
 
 #### Now, let’s check out the move method, which controls how our `player` moves around.
 
