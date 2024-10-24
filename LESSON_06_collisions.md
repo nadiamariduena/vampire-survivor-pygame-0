@@ -217,4 +217,14 @@ from sprites import *
 
 #### We now want to create multiple instances of the blue 🧊   block (or "collision blocks") in the game world.
 
+<br>
+
 > #### Let’s create 6 blocks for now.
+
+
+```python
+for i in range(6):
+    CollisionsSprite(pos, size, self.all_sprites)
+```
+- **`pos`** is the position where each block will be placed.
+
