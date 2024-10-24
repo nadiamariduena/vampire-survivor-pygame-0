@@ -548,3 +548,5 @@ self.collision_sprites = pygame.sprite.Group()
 self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
 ```
 
+### 🔴 What’s Happening Here?
+
