@@ -108,3 +108,12 @@ This bubble is kind of like the hitbox we need for our objects. So, imagine this
 When we’re checking if an enemy collides with the player, the enemy also has its own bubble.
 
 #### 🟣  So, both the player and the enemy need these "bubbles" (hitboxes) to exchange collision information.
+
+
+---
+
+<br>
+<br>
+<br>
+
+## 🟡 Guide to Setting Up Collision Detection with Moving Objects
