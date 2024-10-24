@@ -242,3 +242,7 @@ for i in range(6):
 
 ## 🟡 5. Randomize the Position of the Blocks 🧊
 
+### Now that we have the instances of the blue/rect
+
+> ### Let’s add randomness so that the blue blocks appear in different locations on the screen each time the game runs.
+
