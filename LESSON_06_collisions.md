@@ -193,3 +193,5 @@ class CollisionsSprite(pygame.sprite.Sprite):
 
 - #### This defines a new sprite (CollisionsSprite) that represents a block.
 
+- #### It has a position (pos), size (size), and a rectangle (rect) that will help us detect collisions.
+
