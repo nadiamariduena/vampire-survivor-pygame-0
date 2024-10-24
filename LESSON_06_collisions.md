@@ -336,3 +336,7 @@ self.collision_sprites = pygame.sprite.Group()
 
 ### 🔴 Now that we have our collision group ready, we need to include it when creating our block sprites.
 
+> #### This step connects the blocks to the group.
+
+
+-  Modify the block creation line to include the new group
