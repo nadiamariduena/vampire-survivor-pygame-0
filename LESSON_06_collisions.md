@@ -982,3 +982,9 @@ if direction == 'horizontal':
 #### In this step, we implement the logic for horizontal collisions, determining how the player should respond when colliding with obstacles from the left or right.
 
 - By adjusting the player's position based on their direction of movement, we ensure that the player interacts correctly with the game environment, preventing any unwanted overlapping.
+
+
+<br>
+
+> 🔴 In the image below, you can see that when I try to move through the box from the left or right, I can’t get through. However, if I approach the box from above or below, I still overlap with it.
+
