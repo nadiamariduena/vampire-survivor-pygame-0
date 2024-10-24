@@ -252,4 +252,8 @@ for i in range(6):
 from random import randint
 ```
 
-#
+#### 🟤 2. Randomize the position in both the X and Y directions:
+
+```python
+x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
+```
