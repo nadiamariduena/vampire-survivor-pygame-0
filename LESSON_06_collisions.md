@@ -133,3 +133,8 @@ When we’re checking if an enemy collides with the player, the enemy also has i
 
 - **Set Up Block Sprite:** Define a basic blue block (hitbox) that the player will collide with.
 
+- **Import the Sprite:** Add the sprite class to main.py.
+
+- **Create Instances:** Spawn several blocks (or other objects) in the game world.
+
+
