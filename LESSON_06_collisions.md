@@ -554,4 +554,10 @@ self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
 
 -  - This means the player is part of all the sprites in the game.
 
+<br>
+
 ### 🔴 🔴 Access to Collision Sprites:
+
+
+ We also give the player access to the `self.collision_sprites group`.
+
