@@ -731,3 +731,15 @@ class Player(pygame.sprite.Sprite):
 
 <br>
 <br>
+
+## 🟡 14. Now We Can Set Up the Collision Method
+
+#### With our collision setup in place, it’s time to add the following method in the `Player` class:
+
+```python
+    def collision(self, direction):
+        pass
+
+```
+
+### What’s Happening?
