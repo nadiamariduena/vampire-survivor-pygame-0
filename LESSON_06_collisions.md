@@ -286,3 +286,11 @@ x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
 # after
  CollisionsSprite((x,y), size, self.all_sprites)
 ```
+
+<br>
+
+#### 🟤4) Randomize the block’s size
+
+- We can also make the **blocks different sizes each time**.
+
+> #### To do this, use randint() to generate random width and height:
