@@ -642,3 +642,11 @@ TypeError: __init__() takes 3 positional arguments but 4 were given
 
 <br>
 <br>
+
+
+
+## 🟡  11. Check the Player Class
+
+**Next**, open up the Player.py file.
+
+#### What to Look For
