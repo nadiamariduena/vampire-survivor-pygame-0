@@ -775,7 +775,7 @@ class Player(pygame.sprite.Sprite):
 
 <br>
 
-### 🌈 By <u>splitting<u>  the movement into horizontal (x-axis) and vertical (y-axis) parts, we can make our player move more smoothly and accurately!
+### 🌈 By <u>splitting</u>  the movement into `horizontal (x-axis) and vertical (y-axis)` parts, we can make our player move more smoothly and accurately!
 
 <br>
 
@@ -798,3 +798,9 @@ class Player(pygame.sprite.Sprite):
 
         self.rect.y += self.direction.y * self.speed * dt
 ```
+
+### 🟢 run the code:
+
+> - #### You will see that we can still move the player in any direction (so we didnt break anything)
+
+[<img src="collision_00__randome_blue_boses-no-coll_yet.gif"/>]( )
