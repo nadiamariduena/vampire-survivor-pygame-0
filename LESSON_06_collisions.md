@@ -330,3 +330,9 @@ CollisionsSprite((x,y), (w,h), self.all_sprites)
 self.collision_sprites = pygame.sprite.Group()
 # This group will contain all the CollisionsSprite objects, making it easier to check for collisions later on.
 ```
+<br>
+
+## 🟡 7. Add Blocks 🧊 to the Collision Group
+
+### 🔴 Now that we have our collision group ready, we need to include it when creating our block sprites.
+
