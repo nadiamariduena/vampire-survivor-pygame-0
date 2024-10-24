@@ -695,4 +695,6 @@ In the same `Player` **class**, add this line to store the `collision_sprites`:
  self.collision_sprites = collision_sprites
 ```
 
-### Why This Matters
+## Why This Matters
+
+> #### By storing the collision sprites, we can keep the collision logic inside the player. This way, the player knows *what to check for* when moving around!
