@@ -311,3 +311,13 @@ CollisionsSprite((x,y), (w,h), self.all_sprites)
 [<img src="collision_00__randome_blue_boses-no-coll_yet.gif"/>]( )
 
 > #### At the moment, there’s no collision detection in place, so the player passes right through the obstacle.
+
+
+<br>
+<br>
+
+
+## 🟡 6. Add the Blocks to a New Group
+
+### 🔴 We need a way to manage our collision blocks, so let's create a new sprite group.
+
