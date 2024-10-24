@@ -698,3 +698,36 @@ In the same `Player` **class**, add this line to store the `collision_sprites`:
 ## Why This Matters
 
 > #### By storing the collision sprites, we can keep the collision logic inside the player. This way, the player knows *what to check for* when moving around!
+
+
+```python
+from settings import *
+# the settings contains the width & height
+
+
+class Player(pygame.sprite.Sprite):
+    def __init__(self, pos, groups, collision_sprites):
+        super().__init__(groups)
+        self.image = pygame.image.load(join("../images", "player", "down", "0.png" )).convert_alpha()
+
+        self.rect = self.image.get_frect(center = pos)
+
+
+    # MOVEMENT
+        # The self.direction gives a clear signal on which way to move.
+        # MOVEMENT
+        # This vector will store the direction in which the player is moving.
+        # It helps determine the player's movement by setting the x and y components. at the moment we leave it empty.
+        self.direction = pygame.Vector2()
+
+        # The speed of the player, defining how fast it moves in pixels per second.
+        # A higher value means the player will move faster across the screen.
+        self.speed = 500
+
+        # Store the collision sprites so the player can check for collisions with them.
+        # This will help manage collision detection during movement.
+        self.collision_sprites = collision_sprites
+```
+
+<br>
+<br>
