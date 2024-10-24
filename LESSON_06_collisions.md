@@ -1007,3 +1007,10 @@ else:
 
 [<img src="Implementing_vertical_Collision_Response.gif
 "/>]( )
+
+
+
+<br>
+<br>
+
+## 🟧 Complete Player Class with Vertical Collision Logic
