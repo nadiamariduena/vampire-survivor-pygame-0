@@ -585,3 +585,11 @@ for i in range(6):
     CollisionsSprite((x, y), (w, h), (self.all_sprites, self.collision_sprites))
 
 ```
+
+
+### What’s Happening Here?
+
+- **In this loop**, we’re creating **six blue cubes** (collision sprites) at **random positions** on the **screen**.
+
+> - - Each cube will have a different size because of randint.
+
