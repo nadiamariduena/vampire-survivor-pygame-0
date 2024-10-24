@@ -927,3 +927,8 @@ self.collision('vertical')
 - By iterating through the `collision_sprites,` we can determine if the player’s rectangle intersects with any of the obstacles.
 
 #### If an overlap is found, we print a message for now, but later we’ll implement logic to respond to these collisions appropriately.
+
+<br>
+
+## 🍓 Gathering Obstacles for Collision Detection
+
