@@ -836,3 +836,7 @@ It enhances the overall control and fluidity of game!
 
 -  #### Now, we’re going to update our movement code to `call` the `horizontal and vertical` axes separately:
 
+```python
+self.rect.x += self.direction.x * self.speed * dt
+
+
