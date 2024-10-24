@@ -92,3 +92,7 @@
 
 - ### 🔺 the player cannot collide with any of the enemies
 
+since those are moving, the collision logic would break.
+
+<br>
+
