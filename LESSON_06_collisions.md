@@ -299,3 +299,11 @@ x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
 w,h = randint(60, 100), randint(50, 100)
 # > 🔴 randint allows you to create boxes of different sizes each time the game runs.
 ```
+#### 🟤5) Update the block creation with the random size:
+
+```python
+# before
+CollisionsSprite((x,y), size, self.all_sprites)
+# after
+CollisionsSprite((x,y), (w,h), self.all_sprites)
+```
