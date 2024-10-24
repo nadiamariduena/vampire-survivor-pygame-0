@@ -137,4 +137,4 @@ When we’re checking if an enemy collides with the player, the enemy also has i
 
 - **Create Instances:** Spawn several blocks (or other objects) in the game world.
 
-
+- **Randomize Positions and Sizes:** Use `randint()` to make the blocks appear in random spots and with random sizes.
