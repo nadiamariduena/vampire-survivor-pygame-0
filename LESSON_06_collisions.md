@@ -50,3 +50,12 @@
 ## 🔴 The complication
 
 #### When a collision happens, we can’t tell exactly where it’s occurring. It could be at the bottom, the top, or any side of the player. Check out the image below for a clearer idea!
+
+
+<br>
+
+## 🟧 Finding the Collision Side
+
+
+### To figure out where the collision is happening, we need to break it down:
+
