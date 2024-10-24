@@ -675,4 +675,15 @@ class Player(pygame.sprite.Sprite):
 class Player(pygame.sprite.Sprite):
     def __init__(self, pos, groups, collision_sprites):
 ```
->Now, we’re set up to handle collisions properly!
+> #### Now, we’re set up to handle collisions properly.
+
+<br>
+
+
+
+<br>
+
+## 🟡 13. Storing Collision Sprites
+
+- **Now**, let's make sure the player can use this new collision information
+
