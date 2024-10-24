@@ -228,3 +228,7 @@ for i in range(6):
 ```
 - **`pos`** is the position where each block will be placed.
 
+- **`size`** defines the width and height of the block.
+
+- **`self.all_sprites`** is the group of all sprites (including the player, enemies, etc.).
+
