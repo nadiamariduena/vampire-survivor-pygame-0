@@ -804,3 +804,19 @@ class Player(pygame.sprite.Sprite):
 > - #### You will see that we can still move the player in any direction (so we didnt break anything)
 
 [<img src="collision_00__randome_blue_boses-no-coll_yet.gif"/>]( )
+
+<br>
+
+### What’s Happening Here?
+
+**Now**, we’re controlling the player’s movement in two clear steps!
+
+> #### This separation allows us to manage the player's movement more effectively.
+
+ (this is very important)
+
+- **For example**, if the player wants to move left and upward at the same time, we can handle both directions independently, ensuring smooth and responsive movement.
+
+It enhances the overall control and fluidity of game!
+
+### 🟥 🟣 Question: Wasn’t the player already performing that with the original line?
