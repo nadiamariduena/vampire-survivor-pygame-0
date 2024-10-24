@@ -215,3 +215,6 @@ from sprites import *
 
 ## 🟡 4. Create Instances of the Collision Block
 
+#### We now want to create multiple instances of the blue 🧊   block (or "collision blocks") in the game world.
+
+> #### Let’s create 6 blocks for now.
