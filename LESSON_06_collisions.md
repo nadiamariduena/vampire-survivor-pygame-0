@@ -363,3 +363,9 @@ CollisionsSprite((x,y), (w,h), (self.all_sprites, self.collision_sprites))
 
 > #### This way, the player can interact properly with the blocks.
 
+#### 🌈 Update the player creation to include the collision group
+
+```python
+self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
+
+```
