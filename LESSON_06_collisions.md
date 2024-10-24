@@ -667,3 +667,7 @@ class Player(pygame.sprite.Sprite):
 
 #### To fix the error, we need to add a third argument for collision detection (In the same `Player` *class*).
 
+### Update the Constructor
+
+- **Modify** the `__init__` method **to include** `collision_sprites` as a third argument:
+
