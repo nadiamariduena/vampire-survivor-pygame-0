@@ -924,3 +924,4 @@ self.collision('vertical')
 
 #### In this step, we are setting up the collision detection method to check if the player is overlapping with any obstacles in the game.
 
+- By iterating through the `collision_sprites,` we can determine if the player’s rectangle intersects with any of the obstacles.
