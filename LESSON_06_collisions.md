@@ -235,3 +235,10 @@ for i in range(6):
 <br>
 
 > #### 🟤 Note: We’ll randomize the position and size of these blocks later, so they appear in different locations and have different sizes.
+
+
+<br>
+<br>
+
+## 🟡 5. Randomize the Position of the Blocks 🧊
+
