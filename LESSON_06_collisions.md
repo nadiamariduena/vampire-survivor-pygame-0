@@ -208,3 +208,10 @@ class CollisionsSprite(pygame.sprite.Sprite):
 ```python
 from sprites import *
 ```
+
+
+<br>
+<br>
+
+## 🟡 4. Create Instances of the Collision Block
+
