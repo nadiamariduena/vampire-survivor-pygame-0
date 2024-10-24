@@ -121,4 +121,5 @@ When we’re checking if an enemy collides with the player, the enemy also has i
 
 ### In this section, we'll walk through the process of adding collision detection between the player and other sprites in your game.
 
- .
+> #### You'll learn how to create and manage collision objects like blocks, randomize their positions and sizes, and set up a system to check for overlaps between the player and these objects.
+
