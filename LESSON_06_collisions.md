@@ -990,3 +990,9 @@ if direction == 'horizontal':
 
 [<img src="Implementing_Horizontal_Collision_Response.gif"/>]( )
 
+
+<br>
+<br>
+
+## 🟡 21.  Handling Vertical Collisions
+
