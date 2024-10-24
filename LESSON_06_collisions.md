@@ -163,5 +163,9 @@ When we’re checking if an enemy collides with the player, the enemy also has i
 
 ###  🟡 1.  Create the `sprites.py` File
 
+- #### First, create a new file called `sprites.py` in your `code` folder.
+
+> - - This file will store all your sprite classes, like the player, enemies, and other objects (such as blocks) that the player can collide with.
+<br>
 
 
