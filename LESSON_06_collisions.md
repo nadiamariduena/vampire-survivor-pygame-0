@@ -653,3 +653,11 @@ TypeError: __init__() takes 3 positional arguments but 4 were given
 
  #### In this file, you’ll find the definition of the Player class, and it should look something like this:
 
+```python
+class Player(pygame.sprite.Sprite):
+    def __init__(self, pos, groups):
+```
+> #### This shows that the constructor `(__init__ method)` only takes two arguments: `pos and groups`. That’s not enough for what we need!
+
+<br>
+<br>
