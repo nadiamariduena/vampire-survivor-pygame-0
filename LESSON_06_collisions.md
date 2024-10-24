@@ -743,3 +743,7 @@ class Player(pygame.sprite.Sprite):
 ```
 
 ### What’s Happening?
+
+> #### We’ll create a method called collision, but for now, we’ll keep it simple with `pass`.
+
+- **This means we’re not doing anything** just **yet** because we still need to focus on the movement logic first.
