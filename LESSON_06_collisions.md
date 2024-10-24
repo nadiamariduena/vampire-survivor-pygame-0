@@ -907,3 +907,4 @@ self.collision('vertical')
 
 🟩 This example clearly shows how the player and obstacle interact when there’s a collision.
 
+[<img src="collision_3_horizontal-vertical-axis_player_and_obstacle.png"/>]( )
