@@ -340,3 +340,7 @@ self.collision_sprites = pygame.sprite.Group()
 
 
 -  Modify the block creation line to include the new group
+
+```python
+CollisionsSprite((x,y), (w,h), (self.all_sprites, self.collision_sprites))
+```
