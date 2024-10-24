@@ -827,3 +827,12 @@ It enhances the overall control and fluidity of game!
 
  - **Yes**, the original line does allow for simultaneous movement in both directions. **However**, 🟥 it **combines them** into **one** calculation, **which can make it harder** to manage collisions or fine-tune movement behavior later on.
 
+
+<br>
+<br>
+
+
+## 🟡 17. Calling the Horizontal and Vertical Axes
+
+-  #### Now, we’re going to update our movement code to `call` the `horizontal and vertical` axes separately:
+
