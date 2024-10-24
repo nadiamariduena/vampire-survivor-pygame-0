@@ -629,3 +629,4 @@ for i in range(6):
 
 ## 🟡 10.  Understanding the Error
 
+#### If you try to run the code right now, you'll encounter this error message:
