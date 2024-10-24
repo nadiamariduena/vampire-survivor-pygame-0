@@ -760,3 +760,10 @@ class Player(pygame.sprite.Sprite):
 
 - At the moment, it looks like this:
 
+- currently we have this
+
+```python
+    def move(self,dt):
+        self.rect.center += self.direction * self.speed * dt
+# This line updates the player’s position by adjusting the center of their rectangle based on their direction, speed, and the time passed (dt). It’s essential for creating smooth movement in the game!
+```
