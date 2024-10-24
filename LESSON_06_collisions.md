@@ -528,3 +528,10 @@ self.collision_sprites = pygame.sprite.Group()
 # This group holds objects that can collide
 
 ```
+#### What are Groups?
+
+
+- recap
+
+> #### Groups help us organize our sprites, like keeping all our 🧸 toys in different boxes.
+
