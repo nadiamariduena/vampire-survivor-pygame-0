@@ -153,3 +153,6 @@ When we’re checking if an enemy collides with the player, the enemy also has i
 
 ### Right now, we don't have anything for the player to collide with.
 
+> - #### 🍨 To fix this, we need to add some obstacles or blocks 🧊 to collide with.
+
+#### So, let's create a new sprite (or rectangle) that we can use for collision.
