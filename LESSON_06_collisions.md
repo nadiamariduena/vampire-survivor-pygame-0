@@ -852,8 +852,11 @@ self.collision('vertical')
 ```
 <br>
 
+### ⚫ recap:
+
 ## 🟠 Why Do We Need to Split It Up?
 
 ### By calling the horizontal and vertical axes, we can handle collisions more accurately.
 
 - - This means we can determine exactly how the player interacts with obstacles in the game world.
+
