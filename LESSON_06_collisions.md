@@ -661,3 +661,9 @@ class Player(pygame.sprite.Sprite):
 
 <br>
 <br>
+
+
+## 🟡 12.   Adding the Missing Argument
+
+#### To fix the error, we need to add a third argument for collision detection (In the same `Player` *class*).
+
