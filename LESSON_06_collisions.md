@@ -996,3 +996,14 @@ if direction == 'horizontal':
 
 ## 🟡 21.  Handling Vertical Collisions
 
+
+
+```python
+else:
+        if self.direction.y < 0: self.rect.top = sprite.rect.bottom
+        if self.direction.y > 0: self.rect.bottom = sprite.rect.top
+```
+
+
+[<img src="Implementing_vertical_Collision_Response.gif
+"/>]( )
