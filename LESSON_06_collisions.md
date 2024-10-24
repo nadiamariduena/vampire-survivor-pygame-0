@@ -369,3 +369,15 @@ CollisionsSprite((x,y), (w,h), (self.all_sprites, self.collision_sprites))
 self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
 
 ```
+
+
+```python
+#before
+self.player = Player((400, 300), self.all_sprites)
+
+# after
+self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
+```
+
+## 🔴  But why do we need to do this?
+
