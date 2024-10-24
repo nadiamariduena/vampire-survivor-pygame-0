@@ -246,3 +246,10 @@ for i in range(6):
 
 > ### Let’s add randomness so that the blue blocks appear in different locations on the screen each time the game runs.
 
+#### 🟤 1. Import `randint` to generate random numbers:
+
+```python
+from random import randint
+```
+
+#
