@@ -860,3 +860,15 @@ self.collision('vertical')
 
 - - This means we can determine exactly how the player interacts with obstacles in the game world.
 
+
+## 🟧 Let’s Think About a Collision
+
+### Imagine the player’s rectangle is **positioned at the center** of the screen.
+
+[<img src="collision_horizontal-vertical-axis_player_and_obstacle.png "/>]( )
+
+> - - ### If a collision comes from the right side, we need to check if the player is to the left of the obstacle
+
+
+<br>
+<br>
