@@ -257,3 +257,7 @@ from random import randint
 ```python
 x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
 ```
+
+<br>
+
+**`WINDOW_WIDTH and WINDOW_HEIGHT`** are the dimensions of the game window.
