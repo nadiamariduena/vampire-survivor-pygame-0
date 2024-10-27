@@ -294,3 +294,12 @@ pip install pytmx
 <br>
 
 ## 🟡 1: Import Pytmx
+
+
+**First,** we need to import the necessary function from `pytmx`. This function will help us load our map file.
+
+
+```python
+from pytmx.util_pygame import load_pygame
+```
+
