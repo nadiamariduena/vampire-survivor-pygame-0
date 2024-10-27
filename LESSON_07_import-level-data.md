@@ -486,3 +486,6 @@ map = load_pygame('../data/maps/world.tmx')
 ## 🟡 Step 7: Accessing the Objects Layer
 
  Within the `setup()`:
+
+### 🔴To access a specific layer, like the Objects layer, we’ll need to use a `for` loop, but first lets check how we are going to reach the Object
+
