@@ -693,3 +693,7 @@ for i in range(6):
 
 ### 🟤 1. First Argument: Position
 
+The first argument for `CollisionSprite()` is the position of the sprite, which requires coordinates **(x, y)**.
+
+#### Here’s how to set it up:
+
