@@ -614,3 +614,5 @@ class CollisionsSprite(pygame.sprite.Sprite):
 
 > 🔴 **Remember** that in **Step 10**, we **modified** the `CollisionSprite` class **to use** `surf` **instead of** `size`, 🔺 allowing us to display the real game elements.
 
+
+###  Now that we're ready to utilize the actual objects from our tile map
