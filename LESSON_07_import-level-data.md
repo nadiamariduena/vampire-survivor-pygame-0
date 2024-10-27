@@ -48,3 +48,6 @@
 
 #### Among the various tile editors available, Tiled stands out for its versatility and ease of use.
 
+> #### You can download Tiled for free from [Tiled/  mapeditor.org ](https://www.mapeditor.org/).
+
+It supports a range of features that make it suitable for both beginners and experienced developers.
