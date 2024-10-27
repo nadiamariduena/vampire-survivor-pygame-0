@@ -713,3 +713,12 @@ CollisionsSprite((obj.x, obj.y))
 #### Why a Tuple?
 
 We use a tuple (the parentheses around the coordinates) to group the x and y values together as **a single argument**. This makes it clear that the two numbers represent a single position in the game world.
+
+
+<br>
+
+### 🟤 2. The second argument: Argument: Image
+
+- The second argument is the image of the sprite, which determines how it looks on the screen.
+
+
