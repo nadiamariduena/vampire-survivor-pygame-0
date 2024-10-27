@@ -109,3 +109,8 @@ It supports a range of features that make it suitable for both beginners and exp
 🔴 This method is straightforward and helps avoid potential errors.
 
 ### Here’s how to do it:
+
+
+#### a: Install Tiled
+To install Tiled, simply open your terminal and run the following command:
+
