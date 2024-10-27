@@ -273,3 +273,24 @@ Type this command and hit Enter:
 ```python
 pip install pytmx
 ```
+
+
+<br>
+
+
+
+---
+
+<br>
+<br>
+<br>
+
+
+## 🟦 Lets start coding
+
+### We’ll use the `pytmx module` to `load a tile map` into our Pygame project. Let’s break it down step by step.
+
+
+<br>
+
+## 🟡 1: Import Pytmx
