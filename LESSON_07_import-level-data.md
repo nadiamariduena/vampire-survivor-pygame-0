@@ -460,3 +460,6 @@ class Game:
 ## 🟡 6: Accessing Individual Layers
 
 **Next**, we want to access the individual layers of the map.
+
+> #### Each layer can contain different elements like the `ground, objects, and collision areas`.
+
