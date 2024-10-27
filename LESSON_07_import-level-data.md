@@ -248,3 +248,11 @@ If you move to the tile directly to the right of it, the position changes to (1,
 - - 🔴 While this method works, it can be quite tedious(it can feel a bit like a puzzle with too many pieces).
 
 - - #### It involves a lot of manual setup and can be quite time-consuming.Picture yourself meticulously arranging each tile—definitely a lot of work!
+
+
+
+<br>
+
+### 🟤 Method 2: Discover the Power of Pytmx!
+
+
