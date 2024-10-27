@@ -750,3 +750,6 @@ CollisionsSprite((obj.x, obj.y), obj.image, (self.all_sprites, self.collision_sp
 ### Purpose of These Groups:
 
 **`self.all_sprites`:** This group contains all sprites in the game, which allows for general management and rendering.
+
+**`self.collision_sprites`:** This group is specifically for sprites that need to be checked for collisions with other sprites.
+
