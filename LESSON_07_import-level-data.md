@@ -546,3 +546,7 @@ for obj in map.get_layer_by_name('Objects'):
 ### 🔴 After running the code, you’ll see that the game screen still looks the same. However, your console should be filled with a lot of data!
 
 #### But what is this data?
+
+>The data includes the `x and y` coordinates and the image of each object.
+
+[<img src="Loop_Through_the_Objects.gif"/>]()
