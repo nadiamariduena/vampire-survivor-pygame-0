@@ -507,3 +507,14 @@ The **Objects** layer includes trees, rocks, pillars, and other items.
 ### `For` loop
 
 **Now** let’s create a loop to go through all the items in the Objects layer:
+
+
+
+```python
+# This allows us to go through each item in that layer one by one. Here’s how to do it:
+for obj in map.get_layer_by_name('Objects'):
+    print(obj.x)
+    print(obj.y)
+    print(obj.image)
+
+```
