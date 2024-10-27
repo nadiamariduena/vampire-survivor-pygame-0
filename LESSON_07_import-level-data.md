@@ -128,3 +128,11 @@ tiled
 #### 📌 Pin Tiled to Your Desktop (optional)
 
 For quick access, you may want to pin Tiled to your desktop or taskbar. This can typically be done by right-clicking the Tiled icon in your applications menu and selecting the option to pin it.
+
+
+
+<br>
+<br>
+
+## 🟡 2.  Customizing the Editor Background Color and Tile Colors
+
