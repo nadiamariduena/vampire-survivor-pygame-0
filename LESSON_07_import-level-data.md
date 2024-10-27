@@ -697,3 +697,10 @@ The first argument for `CollisionSprite()` is the position of the sprite, which 
 
 #### Here’s how to set it up:
 
+
+```python
+# 1 How it should look:
+CollisionsSprite(size)
+# 2 but in the code
+CollisionsSprite(obj.x, obj.y)
+```
