@@ -518,3 +518,8 @@ for obj in map.get_layer_by_name('Objects'):
     print(obj.image)
 
 ```
+
+
+#### This will print the `x and y` positions, as well as the image for each object in the console.
+
+
