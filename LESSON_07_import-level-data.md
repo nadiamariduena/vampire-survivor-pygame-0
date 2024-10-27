@@ -340,3 +340,6 @@ def setup(self):
     print(map)
 
 ```
+
+> #### 🔴 Important! The `../` in the path means “go up one folder.” If the path is incorrect, you might get an error or not see anything on the screen.
+
