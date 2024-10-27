@@ -201,3 +201,6 @@ If you want to learn how to create your own tile map, check out the video:[A gui
 ## 🟤 In the grid:
 
 ### The tile at the very top left corner has the position (0, 0).
+
+If you move to the tile directly to the right of it, the position changes to (1, 0).
+
