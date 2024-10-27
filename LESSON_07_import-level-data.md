@@ -738,3 +738,8 @@ CollisionsSprite((obj.x, obj.y), obj.image, )
 ### 🟤 3. Third Argument: Sprite Groups
 
 The third argument needs to be a tuple containing the groups: `(self.all_sprites, self.collision_sprites)` that this sprite belongs to.
+
+
+
+```python
+CollisionsSprite((obj.x, obj.y), obj.image,
