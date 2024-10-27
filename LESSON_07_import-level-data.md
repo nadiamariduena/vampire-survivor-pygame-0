@@ -583,3 +583,7 @@ Here’s how to update it:
 self.image = surf
 ```
 🟤**Remove** the line that fills the screen with blue:
+
+```python
+self.image.fill('blue')
+```
