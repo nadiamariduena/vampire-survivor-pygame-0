@@ -69,3 +69,6 @@ It supports a range of features that make it suitable for both beginners and exp
 
 ### In this tutorial, we will specifically focus on how to import tile maps created in Tiled into Pygame.
 
+> #### 🔴 While we won't delve into designing maps, understanding how to integrate them into your game is essential for creating immersive levels.
+
+<br>
