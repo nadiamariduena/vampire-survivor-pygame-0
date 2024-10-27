@@ -114,3 +114,9 @@ It supports a range of features that make it suitable for both beginners and exp
 #### a: Install Tiled
 To install Tiled, simply open your terminal and run the following command:
 
+```python
+sudo snap install tiled
+```
+
+####  b: Launch Tiled
+
