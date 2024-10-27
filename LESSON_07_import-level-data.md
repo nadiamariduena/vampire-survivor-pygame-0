@@ -745,3 +745,7 @@ The third argument needs to be a tuple containing the groups: `(self.all_sprites
 CollisionsSprite((obj.x, obj.y), obj.image, (self.all_sprites, self.collision_sprites))
 ```
 >This helps manage how sprites are rendered and how collisions are detected.
+
+
+### Purpose of These Groups:
+
