@@ -303,3 +303,7 @@ pip install pytmx
 from pytmx.util_pygame import load_pygame
 ```
 
+<br>
+<br>
+
+## 🟡 2: Create a Setup Method in the Game Class
