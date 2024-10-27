@@ -344,3 +344,12 @@ def setup(self):
 > #### 🔴 Important! The `../` in the path means “go up one folder.” If the path is incorrect, you might get an error or not see anything on the screen.
 
 #### The `print(map)` line is helpful because it lets you see if the map loaded correctly in the console.
+
+
+
+<br>
+<br>
+
+## 🟡 4: Call the Setup Method
+
+**Finally**, we **need to call our `setup` method** so it runs when the game starts.
