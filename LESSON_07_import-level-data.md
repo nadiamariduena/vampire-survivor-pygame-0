@@ -753,3 +753,7 @@ CollisionsSprite((obj.x, obj.y), obj.image, (self.all_sprites, self.collision_sp
 
 **`self.collision_sprites`:** This group is specifically for sprites that need to be checked for collisions with other sprites.
 
+
+> #### By organizing sprites into these groups, we can efficiently manage their behavior and interactions within the game.
+
+>For example, during each frame, we can easily check which sprites are colliding and respond accordingly.
