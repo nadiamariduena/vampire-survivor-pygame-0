@@ -768,3 +768,7 @@ CollisionsSprite((obj.x, obj.y), obj.image, (self.all_sprites, self.collision_sp
 
 ### 🔴 After running the code again, you should see your game screen come to life!
 
+ This time, you’ll notice the first objects appearing, which are the trees from your tile map.
+
+
+[<img src="success_importing-the-objects-and-adding-collisions.gif"/>]()
