@@ -314,3 +314,8 @@ from pytmx.util_pygame import load_pygame
 
 Here’s how to do it:
 
+```python
+def setup(self):
+    map = load_pygame()
+```
+
