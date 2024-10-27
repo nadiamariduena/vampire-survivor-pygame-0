@@ -656,4 +656,4 @@ for i in range(6):
 
 #### 🟩 Creating Collision Sprites:
 
-
+- The `CollisionsSprite` **class** is instantiated with these random coordinates and sizes, adding blue 🧊 rectangles to the game.
