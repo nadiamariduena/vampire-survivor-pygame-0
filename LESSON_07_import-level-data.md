@@ -447,3 +447,7 @@ class Game:
 
 > #### But don’t worry! If you check the ✋ CONSOLE, you should see something like this:
 
+```python
+<TileMap: "data\maps\world.tmx">
+```
+
