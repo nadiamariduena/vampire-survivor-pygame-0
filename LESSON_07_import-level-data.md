@@ -220,3 +220,17 @@ If you move to the tile directly to the right of it, the position changes to (1,
 > ### Remember, as you navigate the grid, the positions are defined by their distance from the origin point (0, 0).
 
 <br>
+
+
+
+
+<br>
+<br>
+<br>
+
+---
+
+<br>
+
+# 🟡  Importing Your Grid Map into Pygame: Let's Get Started!
+
