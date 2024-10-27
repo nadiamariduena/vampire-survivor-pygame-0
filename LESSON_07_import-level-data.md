@@ -772,3 +772,9 @@ CollisionsSprite((obj.x, obj.y), obj.image, (self.all_sprites, self.collision_sp
 
 
 [<img src="success_importing-the-objects-and-adding-collisions.gif"/>]()
+
+
+
+#### Smooth Player Movement
+
+The player can move around without any issues, just like before. This means that the integration of the trees hasn’t disrupted any gameplay mechanics.
