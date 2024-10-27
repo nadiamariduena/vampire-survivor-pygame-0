@@ -234,3 +234,5 @@ If you move to the tile directly to the right of it, the position changes to (1,
 
 # 🟡  Importing Your Grid Map into Pygame: Let's Get Started!
 
+### Whether you want to create a stunning platformer or an adventurous RPG, importing your grid map is the first step!
+
