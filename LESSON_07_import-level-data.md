@@ -686,3 +686,10 @@ for i in range(6):
 
 
 ### After removing the loop that created the six blue boxes, we need to insert the `CollisionSprite()` into the `setup()` method.
+
+
+
+> - ### The <u>purpose of the setup()</u>  method is to initialize and set up important game elements, including our collision sprites.
+
+### 🟤 1. First Argument: Position
+
