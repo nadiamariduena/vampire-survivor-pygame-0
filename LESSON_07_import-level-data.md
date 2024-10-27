@@ -677,3 +677,12 @@ for i in range(6):
 ## 🟧Next Steps
 
 #### After you remove this block, we'll implement a new loop to create collision sprites <u>using the actual objects defined in your TMX file</u>.
+
+
+<br>
+<br>
+
+## 🟡 12: Adding CollisionSprite to the Setup Method
+
+
+
