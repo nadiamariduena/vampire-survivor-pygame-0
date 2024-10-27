@@ -140,3 +140,6 @@ For quick access, you may want to pin Tiled to your desktop or taskbar. This can
 
 ### 🟢 Changing the Background and Tile Colors
 
+🌈 **In the image below**, you can see that I have already made some adjustments to the settings. Customizing these colors can help you better visualize your project as you work.
+
+### 🟢 Project Structure Overview
