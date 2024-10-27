@@ -72,3 +72,8 @@ It supports a range of features that make it suitable for both beginners and exp
 > #### 🔴 While we won't delve into designing maps, understanding how to integrate them into your game is essential for creating immersive levels.
 
 <br>
+
+
+## 🟠 Resources for Further Learning
+
+#### To enhance your understanding of tile maps and how to work with them in different engines, check out these helpful tutorials:
