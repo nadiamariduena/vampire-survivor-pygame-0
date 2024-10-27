@@ -574,3 +574,5 @@ for obj in map.get_layer_by_name('Objects'):
 - - #### Let’s modify it to use the objects from your map instead of just drawing blue rectangles.
 
 Here’s how to update it:
+
+🟤 **Replace** the size parameter with surf (which will represent the surface image).
