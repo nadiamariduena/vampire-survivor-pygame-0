@@ -83,3 +83,15 @@ It supports a range of features that make it suitable for both beginners and exp
 - [A guide to level creation with Tiled [ + how to use it with pygame ]](https://www.youtube.com/watch?v=N6xqCwblyiw&ab_channel=ClearCode)
 
 <br>
+
+#### Other:
+
+[Use the TileMap to Make Incredible Maps & Levels for your Godot Games](https://youtu.be/rckLxmH_fK0?si=zne4yC7x3mpkTkCf)
+
+[How to Use the New TileMap in Godot 4](https://youtu.be/tQSL2scuqeU?si=nZyaE7TlClHn5Xms)
+
+[How to build a Tile Set Map Editor using HTML Canvas](https://youtu.be/IYgZMIB7_PM?si=Vn9hG-S4vnEq9ekb)
+
+<br>
+
+---
