@@ -60,3 +60,12 @@ It supports a range of features that make it suitable for both beginners and exp
 **Custom Properties:** Assign properties to tiles for better interaction with your game logic.
 
 **Export Options:** Save your maps in a format that's easy to import into Pygame.
+
+
+
+<br>
+
+## 🟠 Importing Tile Maps into Pygame
+
+### In this tutorial, we will specifically focus on how to import tile maps created in Tiled into Pygame.
+
