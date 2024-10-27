@@ -435,3 +435,8 @@ class Game:
 
 ### Now it’s time to run your code! You might notice that nothing seems to change on the screen;
 
+- - you’ll still see your player and some blue rectangles.
+
+<br>
+
+[<img src="mapping_tiled_map.png"/>]()
