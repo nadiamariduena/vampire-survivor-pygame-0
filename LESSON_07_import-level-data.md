@@ -38,5 +38,7 @@
 
 **Visualize Your Design:** Place tiles and see how they come together in real-time, making it easier to tweak your layout.
 
+**Efficiently Organize Tiles:** Use a grid system to manage your tiles, making it simpler to create complex environments without getting lost in code.
 
+**Speed Up Development:** Quickly iterate on designs and test them without needing to dive into the code each time.
 
