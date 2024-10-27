@@ -685,4 +685,4 @@ for i in range(6):
 ## 🟡 12: Adding CollisionSprite to the Setup Method
 
 
-
+### After removing the loop that created the six blue boxes, we need to insert the `CollisionSprite()` into the `setup()` method.
