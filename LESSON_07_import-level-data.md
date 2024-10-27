@@ -588,3 +588,15 @@ self.image = surf
 self.image.fill('blue')
 ```
 ### 🟢 Your modified `CollisionsSprite` class should look like this:
+
+
+```python
+class CollisionsSprite(pygame.sprite.Sprite):
+    def __init__(self, pos, surf, groups):
+        super().__init__(groups)
+        # Now it shows the objects like trees, rocks, etc.
+        self.image = surf
+        self.rect = self.image.get_rect(center=pos)
+
+```
+
