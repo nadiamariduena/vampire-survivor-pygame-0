@@ -671,3 +671,9 @@ for i in range(6):
 #### We want to replace them with meaningful game objects from our tile map, enhancing the gameplay experience.
 
 **Collision Detection:** By using objects from the tile map, we can leverage their built-in properties for collision detection without cluttering the game with unnecessary placeholder graphics.
+
+<br>
+
+## 🟧Next Steps
+
+#### After you remove this block, we'll implement a new loop to create collision sprites <u>using the actual objects defined in your TMX file</u>.
