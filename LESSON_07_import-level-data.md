@@ -95,3 +95,14 @@ It supports a range of features that make it suitable for both beginners and exp
 <br>
 
 ---
+
+
+<br>
+<br>
+<br>
+
+## 🟡 1. Installing Tiled via the Terminal
+
+
+#### If you've faced issues downloading Tiled from the official website, a reliable alternative is to install it through the `terminal` using Snap.
+
