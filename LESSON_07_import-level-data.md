@@ -236,3 +236,10 @@ If you move to the tile directly to the right of it, the position changes to (1,
 
 ### Whether you want to create a stunning platformer or an adventurous RPG, importing your grid map is the first step!
 
+
+### 🟦 Let’s dive into two ways to do this.
+
+<br>
+
+### 🟤 Method 1: Importing with a CSV File
+
