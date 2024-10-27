@@ -612,4 +612,5 @@ class CollisionsSprite(pygame.sprite.Sprite):
 
 
 
-> 🔴 **Remember** that in **Step 10**, we **modified** the `CollisionSprite` class
+> 🔴 **Remember** that in **Step 10**, we **modified** the `CollisionSprite` class **to use** `surf` **instead of** `size`, 🔺 allowing us to display the real game elements.
+
