@@ -578,3 +578,8 @@ Here’s how to update it:
 🟤 **Replace** the size parameter with surf (which will represent the surface image).
 
 🟤 **Change** the way you set `self.image`. Instead of creating a blue block, use the surf you just added:
+
+```python
+self.image = surf
+```
+🟤**Remove** the line that fills the screen with blue:
