@@ -506,3 +506,4 @@ The **Objects** layer includes trees, rocks, pillars, and other items.
 
 ### `For` loop
 
+**Now** let’s create a loop to go through all the items in the Objects layer:
