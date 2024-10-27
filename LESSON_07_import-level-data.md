@@ -465,3 +465,7 @@ class Game:
 
 Use this code to load your map:
 
+```python
+map = load_pygame('../data/maps/world.tmx')
+
+```
