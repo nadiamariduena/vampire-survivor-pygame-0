@@ -22,3 +22,14 @@
 
 >   In this lesson, we'll focus on using ✋ [Tiled/  mapeditor.org ](https://www.mapeditor.org/), a powerful and user-friendly tile `map editor`, to design levels for your Pygame projects. We'll explore why you need a tile editor, how to get started with Tiled, and how to import your tile maps into Pygame seamlessly.
 
+
+
+<br>
+
+## 🟠 Why Use a Tile Editor?
+
+>#### When building a game level, having a visual representation of your design is crucial.
+
+
+
+### 🟩 A tile editor allows you to:
