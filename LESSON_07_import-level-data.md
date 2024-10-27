@@ -120,3 +120,8 @@ sudo snap install tiled
 
 ####  b: Launch Tiled
 
+Once the installation is complete, you can run Tiled by typing:
+
+```python
+tiled
+```
