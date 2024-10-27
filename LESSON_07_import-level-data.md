@@ -451,3 +451,4 @@ class Game:
 <TileMap: "data\maps\world.tmx">
 ```
 
+🔴 If you see something different, there’s likely an issue with how the map is loading.
