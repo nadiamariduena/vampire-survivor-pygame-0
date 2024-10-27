@@ -332,3 +332,5 @@ def setup(self):
 
 >#### It’s important to specify the correct path to your map file so that Pygame knows where to find it.
 
+Here’s the code to load your map file correctly:
+
