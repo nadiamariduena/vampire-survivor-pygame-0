@@ -334,3 +334,9 @@ def setup(self):
 
 Here’s the code to load your map file correctly:
 
+```python
+def setup(self):
+    map = load_pygame('../data/maps/world.tmx')
+    print(map)
+
+```
