@@ -355,3 +355,24 @@ def setup(self):
 **Finally**, we **need to call our `setup` method** so it runs when the game starts.
 
 - - 🌟 Add **`self.setup()`** in your `__init__` method like this:
+
+
+```python
+class Game:
+    def __init__(self):
+        pygame.init()
+        self.display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+        pygame.display.set_caption('Survivor')
+        self.clock = pygame.time.Clock()
+        self.running = True
+
+        # --- SETUP ------
+        self.all_sprites = pygame.sprite.Group()
+        self.collision_sprites = pygame.sprite.Group()
+
+        # 🟡 Call the setup method here
+        self.setup()
+
+```
+
+- the current code
