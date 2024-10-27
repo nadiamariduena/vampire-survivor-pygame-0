@@ -608,4 +608,4 @@ class CollisionsSprite(pygame.sprite.Sprite):
 
 ## 🟡 11: Remove the Creation of Blue Boxes
 
-- The Goal in this step, is to **replace** the creation of the **six blue boxes**
+- The Goal in this step, is to **replace** the creation of the **six blue boxes** with a `CollisionSprite` that utilizes the actual objects from the tile map.
