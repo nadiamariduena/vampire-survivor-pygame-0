@@ -576,3 +576,5 @@ for obj in map.get_layer_by_name('Objects'):
 Here’s how to update it:
 
 🟤 **Replace** the size parameter with surf (which will represent the surface image).
+
+🟤 **Change** the way you set `self.image`. Instead of creating a blue block, use the surf you just added:
