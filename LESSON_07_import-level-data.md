@@ -262,3 +262,14 @@ If you move to the tile directly to the right of it, the position changes to (1,
 
 ### 🌈 Installation
 
+
+
+**Step 1:** Install `Pytmx`
+
+- Open your terminal (or command prompt).
+
+Type this command and hit Enter:
+
+```python
+pip install pytmx
+```
