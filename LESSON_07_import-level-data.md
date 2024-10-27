@@ -722,3 +722,10 @@ We use a tuple (the parentheses around the coordinates) to group the x and y val
 - The second argument is the image of the sprite, which determines how it looks on the screen.
 
 
+
+```python
+# 1 this is how it should look
+CollisionsSprite(size, image)
+# 2 but in the code
+CollisionsSprite((obj.x, obj.y), obj.image, )
+```
