@@ -106,3 +106,6 @@ It supports a range of features that make it suitable for both beginners and exp
 
 #### If you've faced issues downloading Tiled from the official website, a reliable alternative is to install it through the `terminal` using Snap.
 
+🔴 This method is straightforward and helps avoid potential errors.
+
+### Here’s how to do it:
