@@ -645,3 +645,8 @@ for i in range(6):
 <br>
 
 ## Explanation of What This Code Does
+
+
+#### 🟩 Random Generation:
+
+#### This loop generates six random positions on the
