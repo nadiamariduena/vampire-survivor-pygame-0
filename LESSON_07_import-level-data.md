@@ -318,4 +318,4 @@ Here’s how to do it:
 def setup(self):
     map = load_pygame()
 ```
-
+#### This method currently just loads a map, but we’ll add more details in the next steps!
