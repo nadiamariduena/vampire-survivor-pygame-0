@@ -204,3 +204,4 @@ If you want to learn how to create your own tile map, check out the video:[A gui
 
 If you move to the tile directly to the right of it, the position changes to (1, 0).
 
+[<img src="position-of-the-tile-on-the-grid__00.png"/>]()
