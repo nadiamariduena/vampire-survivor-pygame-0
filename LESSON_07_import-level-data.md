@@ -619,3 +619,6 @@ class CollisionsSprite(pygame.sprite.Sprite):
 
 <br>
 
+### Code to Remove
+
+- Within the `main.py` in your **Game class**
