@@ -550,3 +550,21 @@ for obj in map.get_layer_by_name('Objects'):
 >The data includes the `x and y` coordinates and the image of each object.
 
 [<img src="Loop_Through_the_Objects.gif"/>]()
+
+
+
+
+
+<br>
+
+### Now, let’s learn how to turn this data into a 💥 Sprite 💥!
+
+<br>
+<br>
+
+<br>
+
+---
+
+## 🟡 10: Modify the Collision Object
+
