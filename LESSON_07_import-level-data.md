@@ -143,3 +143,5 @@ For quick access, you may want to pin Tiled to your desktop or taskbar. This can
 🌈 **In the image below**, you can see that I have already made some adjustments to the settings. Customizing these colors can help you better visualize your project as you work.
 
 ### 🟢 Project Structure Overview
+
+As you **customize your settings**, you’ll also notice a glimpse of the project structure. While the tile map has been created by the instructor, you have the option to build one from scratch.
