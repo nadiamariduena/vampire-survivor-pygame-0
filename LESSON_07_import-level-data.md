@@ -440,3 +440,10 @@ class Game:
 <br>
 
 [<img src="mapping_tiled_map.png"/>]()
+
+
+
+<br>
+
+> #### But don’t worry! If you check the ✋ CONSOLE, you should see something like this:
+
