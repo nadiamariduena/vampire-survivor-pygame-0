@@ -667,3 +667,6 @@ for i in range(6):
 
 **Focus on Actual Game Objects:**
 
+
+#### We want to replace them with meaningful game objects from our tile map, enhancing the gameplay experience.
+
