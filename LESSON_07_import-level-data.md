@@ -255,4 +255,10 @@ If you move to the tile directly to the right of it, the position changes to (1,
 
 ### 🟤 Method 2: Discover the Power of Pytmx!
 
+#### Instead of wrestling with CSV files, let’s use the super handy `pytmx module`.
+
+- - #### This tool makes loading TMX files (the cool format for tile maps) into Pygame easy!  ✨
+
+
+### 🌈 Installation
 
