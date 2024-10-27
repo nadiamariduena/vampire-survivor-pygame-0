@@ -33,3 +33,10 @@
 
 
 ### 🟩 A tile editor allows you to:
+
+
+
+**Visualize Your Design:** Place tiles and see how they come together in real-time, making it easier to tweak your layout.
+
+
+
