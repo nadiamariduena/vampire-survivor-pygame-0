@@ -778,3 +778,13 @@ CollisionsSprite((obj.x, obj.y), obj.image, (self.all_sprites, self.collision_sp
 #### Smooth Player Movement
 
 The player can move around without any issues, just like before. This means that the integration of the trees hasn’t disrupted any gameplay mechanics.
+
+#### Collision Detection
+
+Importantly, the trees also have collision detection enabled, just like the player. This means that your player will interact correctly with the trees, preventing them from walking through them.
+
+<br>
+
+#### Why This Matters
+
+Seeing the trees on the screen and having proper collision detection means your game environment is starting to take shape.
