@@ -205,3 +205,11 @@ If you want to learn how to create your own tile map, check out the video:[A gui
 If you move to the tile directly to the right of it, the position changes to (1, 0).
 
 [<img src="position-of-the-tile-on-the-grid__00.png"/>]()
+
+
+### 🔴This means:
+
+- - **The first number (X)** increases as you move right.
+
+>-  - -  the first tile at the top , has the position of 0,0, if you go to the right of this tile 1 (lets say the second tile to the right), the number would be 1,0
+
