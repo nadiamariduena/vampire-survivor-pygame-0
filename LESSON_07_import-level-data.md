@@ -469,3 +469,6 @@ Use this code to load your map:
 map = load_pygame('../data/maps/world.tmx')
 
 ```
+
+### 🍊 In your map editor, you’ll notice a Layers bar showing different layers like Objects, Collisions, and Entities.
+
