@@ -57,3 +57,6 @@ It supports a range of features that make it suitable for both beginners and exp
 
 **Layer Management:** Organize your tiles into layers for backgrounds, collisions, and foreground elements.
 
+**Custom Properties:** Assign properties to tiles for better interaction with your game logic.
+
+**Export Options:** Save your maps in a format that's easy to import into Pygame.
