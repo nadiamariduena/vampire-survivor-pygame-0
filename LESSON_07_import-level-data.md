@@ -622,3 +622,26 @@ class CollisionsSprite(pygame.sprite.Sprite):
 ### Code to Remove
 
 - Within the `main.py` in your **Game class**
+
+
+
+- **Locate and delete** the following block of code:
+
+<br>
+
+```python
+for i in range(6):
+            x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
+
+            # Random width and height for the cubes
+            w, h = randint(60, 100), randint(50, 100)  # Different sizes each time
+
+            # Create a collision sprite
+            CollisionsSprite((x, y), (w, h), (self.all_sprites, self.collision_sprites))
+            # By passing self.collision_sprites as an argument, the player gains access to the collision detection logic without being a direct member of that group. This allows the player to check for potential collisions with other sprites while not being included in the collision checks themselves.
+
+```
+
+<br>
+
+## Explanation of What This Code Does
