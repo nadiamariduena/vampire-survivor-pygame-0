@@ -172,3 +172,7 @@ If you want to learn how to create your own tile map, check out the video:[A gui
 
  <br>
 
+
+# 🟧 Understanding the Project with the `World.tmx` File
+
+ When you look at the map tiles, keep these points in mind:
