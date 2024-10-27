@@ -155,3 +155,7 @@ If you want to learn how to create your own tile map, check out the video:[A gui
 
 
 <br>
+
+[<img src="tiled_00_map_beginner.gif"/>]()
+
+>I already edited the colors of my editor
