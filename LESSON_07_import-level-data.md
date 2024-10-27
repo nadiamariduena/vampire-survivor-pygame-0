@@ -159,3 +159,16 @@ If you want to learn how to create your own tile map, check out the video:[A gui
 [<img src="tiled_00_map_beginner.gif"/>]()
 
 >I already edited the colors of my editor
+
+<br>
+<br>
+
+<br>
+<br>
+
+# 🟫 Important Points
+
+ I’ll highlight the key aspects here, but please **watch the video tutorial** as the teacher will give a quick introduction to tile maps.
+
+ <br>
+
