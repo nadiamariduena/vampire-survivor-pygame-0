@@ -452,3 +452,11 @@ class Game:
 ```
 
 🔴 If you see something different, there’s likely an issue with how the map is loading.
+
+
+<br>
+<br>
+
+## 🟡 6: Accessing Individual Layers
+
+**Next**, we want to access the individual layers of the map.
