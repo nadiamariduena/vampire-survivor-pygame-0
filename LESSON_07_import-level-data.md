@@ -757,3 +757,14 @@ CollisionsSprite((obj.x, obj.y), obj.image, (self.all_sprites, self.collision_sp
 > #### By organizing sprites into these groups, we can efficiently manage their behavior and interactions within the game.
 
 >For example, during each frame, we can easily check which sprites are colliding and respond accordingly.
+
+
+
+<br>
+<br>
+
+## 🟡 13: Run the Code Again
+
+
+### 🔴 After running the code again, you should see your game screen come to life!
+
