@@ -587,3 +587,4 @@ self.image = surf
 ```python
 self.image.fill('blue')
 ```
+### 🟢 Your modified `CollisionsSprite` class should look like this:
