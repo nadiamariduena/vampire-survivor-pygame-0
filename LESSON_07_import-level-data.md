@@ -376,3 +376,55 @@ class Game:
 ```
 
 - the current code
+
+
+```python
+class Game:
+    def __init__(self):
+        # Initialize all pygame modules
+        pygame.init()
+
+
+        # --- SETUP ------
+        # Create a display surface with the specified window dimensions
+        self.display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+        # Set the title of the game window
+        pygame.display.set_caption('Survivor')
+        # Create a clock to manage the game's frame rate
+        self.clock = pygame.time.Clock()
+        # Initialize a running flag to control the game loop
+        self.running = True
+        # --- SETUP ------
+
+        # GROUPS
+        # group 1
+        self.all_sprites = pygame.sprite.Group()
+        # blue cube instances
+        # group 2
+        self.collision_sprites = pygame.sprite.Group()
+
+        self.setup()
+
+        # SPRITES
+        # player
+        # This line below creates an instance of the Player class and adds it to the self.all_sprites group, allowing it to be managed alongside all game objects.
+        self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
+
+        # random blue cubes
+        for i in range(6):
+            x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
+
+            # Random width and height for the cubes
+            w, h = randint(60, 100), randint(50, 100)  # Different sizes each time
+
+            # Create a collision sprite
+            CollisionsSprite((x, y), (w, h), (self.all_sprites, self.collision_sprites))
+            # By passing self.collision_sprites as an argument, the player gains access to the collision detection logic without being a direct member of that group. This allows the player to check for potential collisions with other sprites while not being included in the collision checks themselves.
+
+    def setup(self):
+        map = load_pygame(join('../data/maps/world.tmx'))
+        print(map)
+```
+
+<br>
+<br>
