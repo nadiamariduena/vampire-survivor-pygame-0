@@ -182,3 +182,9 @@ If you want to learn how to create your own tile map, check out the video:[A gui
 ### 🟤 Positioning:
 
 - - Each tile has an `X` position and a `Y` **position**.
+
+-  - The surface of the tile **can be different at the edges**.
+
+- - **For example**, a tile may be fully grass, but at one corner, it could overlap with a rock.
+
+
