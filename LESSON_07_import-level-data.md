@@ -111,17 +111,20 @@ It supports a range of features that make it suitable for both beginners and exp
 ### Here’s how to do it:
 
 
-#### a: Install Tiled
+#### 🔶 a: Install Tiled
 To install Tiled, simply open your terminal and run the following command:
 
 ```python
 sudo snap install tiled
 ```
 
-####  b: Launch Tiled
+#### 🔶  b: Launch Tiled
 
 Once the installation is complete, you can run Tiled by typing:
 
 ```python
 tiled
 ```
+#### 📌 Pin Tiled to Your Desktop (optional)
+
+For quick access, you may want to pin Tiled to your desktop or taskbar. This can typically be done by right-clicking the Tiled icon in your applications menu and selecting the option to pin it.
