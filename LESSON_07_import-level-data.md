@@ -463,3 +463,5 @@ class Game:
 
 > #### Each layer can contain different elements like the `ground, objects, and collision areas`.
 
+Use this code to load your map:
+
