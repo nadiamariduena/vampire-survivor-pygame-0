@@ -662,3 +662,8 @@ for i in range(6):
 
 - The collision groups `(self.all_sprites and self.collision_sprites)` are used for managing and detecting collisions with other game objects.
 
+
+### Why Remove This Code?
+
+**Focus on Actual Game Objects:**
+
