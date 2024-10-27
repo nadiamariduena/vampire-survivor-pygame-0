@@ -319,3 +319,16 @@ def setup(self):
     map = load_pygame()
 ```
 #### This method currently just loads a map, but we’ll add more details in the next steps!
+
+
+<br>
+<br>
+
+
+## 🟡 3: Import the `TMX File`
+
+
+**Now**, let’s import your TMX file.
+
+>#### It’s important to specify the correct path to your map file so that Pygame knows where to find it.
+
