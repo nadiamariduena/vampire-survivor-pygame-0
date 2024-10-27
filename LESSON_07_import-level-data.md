@@ -731,3 +731,9 @@ CollisionsSprite((obj.x, obj.y), obj.image, )
 ```
 
 >**Recall** from Step 10: In that step, we replaced size with surf. This means we’re now using the image associated with the object from the tile map instead of a fixed size for the sprite.
+
+
+<br>
+
+### 🟤 3. Third Argument: Sprite Groups
+
