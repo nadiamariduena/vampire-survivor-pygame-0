@@ -188,3 +188,7 @@ If you want to learn how to create your own tile map, check out the video:[A gui
 - - **For example**, a tile may be fully grass, but at one corner, it could overlap with a rock.
 
 
+
+### 🟤Grid System:
+
+-  - The grid doesn’t use pixel coordinates, so we need to convert our positions accordingly.
