@@ -192,3 +192,12 @@ If you want to learn how to create your own tile map, check out the video:[A gui
 ### 🟤Grid System:
 
 -  - The grid doesn’t use pixel coordinates, so we need to convert our positions accordingly.
+
+<br>
+<br>
+
+# 🟧 Tile Positions on the Grid
+
+## 🟤 In the grid:
+
+### The tile at the very top left corner has the position (0, 0).
