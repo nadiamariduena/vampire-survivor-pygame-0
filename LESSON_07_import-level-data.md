@@ -494,3 +494,5 @@ map.get_layer_by_name('Objects')
 ```
 
 The **Objects** layer includes trees, rocks, pillars, and other items.
+
+>#### You can find these in your project folder under the data folder as well.
