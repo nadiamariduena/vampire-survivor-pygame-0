@@ -139,3 +139,4 @@ For quick access, you may want to pin Tiled to your desktop or taskbar. This can
 #### One of the first steps in personalizing your workspace in Tiled is adjusting the editor's background color and tile colors. This can enhance visibility and make your design process more enjoyable.
 
 ### 🟢 Changing the Background and Tile Colors
+
