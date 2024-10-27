@@ -51,3 +51,9 @@
 > #### You can download Tiled for free from [Tiled/  mapeditor.org ](https://www.mapeditor.org/).
 
 It supports a range of features that make it suitable for both beginners and experienced developers.
+
+
+### 🟢 Key Features of Tiled
+
+**Layer Management:** Organize your tiles into layers for backgrounds, collisions, and foreground elements.
+
