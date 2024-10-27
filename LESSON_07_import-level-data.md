@@ -243,3 +243,6 @@ If you move to the tile directly to the right of it, the position changes to (1,
 
 ### 🟤 Method 1: Importing with a CSV File
 
+#### You can use a CSV (Comma-Separated Values) file to import your grid map.
+
+- - 🔴 While this method works, it can be quite tedious(it can feel a bit like a puzzle with too many pieces).
