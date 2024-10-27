@@ -145,3 +145,13 @@ For quick access, you may want to pin Tiled to your desktop or taskbar. This can
 ### 🟢 Project Structure Overview
 
 As you **customize your settings**, you’ll also notice a glimpse of the project structure. While the tile map has been created by the instructor, you have the option to build one from scratch.
+
+
+<br>
+
+### 🟧 Create your own tile map
+
+If you want to learn how to create your own tile map, check out the video:[A guide to level creation with Tiled [ + how to use it with pygame ]](https://www.youtube.com/watch?v=N6xqCwblyiw&ab_channel=ClearCode). **It provides** helpful insights on using Tiled with Pygame
+
+
+<br>
