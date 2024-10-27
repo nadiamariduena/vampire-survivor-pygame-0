@@ -649,4 +649,5 @@ for i in range(6):
 
 #### 🟩 Random Generation:
 
-#### This loop generates six random positions on the
+#### This loop generates six random positions on the screen within the game window dimensions `(WINDOW_WIDTH and WINDOW_HEIGHT)`.
+
