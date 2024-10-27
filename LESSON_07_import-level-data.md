@@ -709,3 +709,7 @@ CollisionsSprite(obj.x, obj.y)
 ```python
 CollisionsSprite((obj.x, obj.y))
 ```
+
+#### Why a Tuple?
+
+We use a tuple (the parentheses around the coordinates) to group the x and y values together as
