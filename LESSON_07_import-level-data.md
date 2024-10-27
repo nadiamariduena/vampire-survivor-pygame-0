@@ -704,3 +704,8 @@ CollisionsSprite(size)
 # 2 but in the code
 CollisionsSprite(obj.x, obj.y)
 ```
+#### this 2 arguments  `obj.x, obj.y` needs to be in a tuple:
+
+```python
+CollisionsSprite((obj.x, obj.y))
+```
