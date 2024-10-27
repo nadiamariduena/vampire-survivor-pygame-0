@@ -77,3 +77,9 @@ It supports a range of features that make it suitable for both beginners and exp
 ## 🟠 Resources for Further Learning
 
 #### To enhance your understanding of tile maps and how to work with them in different engines, check out these helpful tutorials:
+
+<br>
+
+- [A guide to level creation with Tiled [ + how to use it with pygame ]](https://www.youtube.com/watch?v=N6xqCwblyiw&ab_channel=ClearCode)
+
+<br>
