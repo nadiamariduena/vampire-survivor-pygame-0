@@ -473,3 +473,16 @@ map = load_pygame('../data/maps/world.tmx')
 ### 🍊 In your map editor, you’ll notice a Layers bar showing different layers like Objects, Collisions, and Entities.
 
 > - ### This is where you can manage what appears on the map!
+
+[<img src="Accessing__Individual__Layers.gif"/>]()
+
+
+
+<br>
+<br>
+
+
+
+## 🟡 Step 7: Accessing the Objects Layer
+
+ Within the `setup()`:
