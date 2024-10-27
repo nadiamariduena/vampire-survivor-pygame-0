@@ -568,3 +568,4 @@ for obj in map.get_layer_by_name('Objects'):
 
 ## 🟡 10: Modify the Collision Object
 
+#### You already have a `Collisions` object defined in `sprites.py`.
