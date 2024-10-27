@@ -213,3 +213,10 @@ If you move to the tile directly to the right of it, the position changes to (1,
 
 >-  - -  the first tile at the top , has the position of 0,0, if you go to the right of this tile 1 (lets say the second tile to the right), the number would be 1,0
 
+
+- - **The second number (Y)** stays the same if you’re only moving horizontally.
+
+
+> ### Remember, as you navigate the grid, the positions are defined by their distance from the origin point (0, 0).
+
+<br>
