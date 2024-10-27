@@ -353,3 +353,5 @@ def setup(self):
 ## 🟡 4: Call the Setup Method
 
 **Finally**, we **need to call our `setup` method** so it runs when the game starts.
+
+- - 🌟 Add **`self.setup()`** in your `__init__` method like this:
