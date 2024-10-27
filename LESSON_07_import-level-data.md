@@ -307,3 +307,10 @@ from pytmx.util_pygame import load_pygame
 <br>
 
 ## 🟡 2: Create a Setup Method in the Game Class
+
+**Next**, we’ll **create a new method** in your `Game` **class** called `setup()`.
+
+> #### This method will be responsible for loading our map.
+
+Here’s how to do it:
+
