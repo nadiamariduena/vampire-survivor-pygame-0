@@ -489,3 +489,8 @@ map = load_pygame('../data/maps/world.tmx')
 
 ### 🔴To access a specific layer, like the Objects layer, we’ll need to use a `for` loop, but first lets check how we are going to reach the Object
 
+```python
+map.get_layer_by_name('Objects')
+```
+
+The **Objects** layer includes trees, rocks, pillars, and other items.
