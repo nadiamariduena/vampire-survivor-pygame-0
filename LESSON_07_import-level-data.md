@@ -651,3 +651,9 @@ for i in range(6):
 
 #### This loop generates six random positions on the screen within the game window dimensions `(WINDOW_WIDTH and WINDOW_HEIGHT)`.
 
+
+>- - #### 🌈 It also creates random width and height values for the blue boxes, which vary with each execution.
+
+#### 🟩 Creating Collision Sprites:
+
+
