@@ -601,3 +601,10 @@ class CollisionsSprite(pygame.sprite.Sprite):
 ```
 
 >### 🔴 Before running the code, let's continue to remove and modify a couple of things
+
+<br>
+<br>
+<br>
+
+## 🟡 11: Remove the Creation of Blue Boxes
+
