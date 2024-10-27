@@ -428,3 +428,10 @@ class Game:
 
 <br>
 <br>
+
+
+
+## 🟡 5: Run the Code
+
+### Now it’s time to run your code! You might notice that nothing seems to change on the screen;
+
