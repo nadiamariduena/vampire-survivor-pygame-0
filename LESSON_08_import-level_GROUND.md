@@ -495,3 +495,4 @@ To improve the visual coherence of the game, **we need to ensure that the object
 
 #### The issue arises from how the position of the CollisionsSprite is being set.
 
+🟫 In the current implementation, we are centering the sprite’s rectangle using the following line:
