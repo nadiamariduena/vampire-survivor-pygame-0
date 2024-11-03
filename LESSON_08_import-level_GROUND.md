@@ -265,3 +265,10 @@ class Sprite(pygame.sprite.Sprite):
 WINDOW_WIDTH, WINDOW_HEIGHT = 1280,720
 TILE_SIZE = 64
 ```
+🔴 This value will be essential for scaling your game objects appropriately.
+
+<br>
+<br>
+<br>
+<br>
+
