@@ -712,3 +712,4 @@ To create` the <u>invisible collision objects</u> , we need to define a `surface
 CollisionsSprite((obj.x, obj.y), pygame.Surface((obj.width, obj.height)))
 ```
 
+> #### By doing this, we ensure that each collision object has the correct size, allowing for accurate interactions in the game environment.
