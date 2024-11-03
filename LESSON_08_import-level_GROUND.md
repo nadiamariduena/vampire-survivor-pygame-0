@@ -561,3 +561,33 @@ self.rect = self.image.get_frect(topleft=pos)
 ```
 
 ### Putting It All Together
+
+
+#### Here’s the complete code reflecting these changes:
+
+```python
+from settings import *
+
+# Non-collidable Sprite
+class Sprite(pygame.sprite.Sprite):
+    def __init__(self, pos, surf, groups):
+        super().__init__(groups)
+        self.image = surf
+        self.rect = self.image.get_frect(topleft=pos)
+
+# Collidable Trees
+class CollisionsSprite(pygame.sprite.Sprite):
+    def __init__(self, pos, surf, groups):
+        super().__init__(groups)
+        # --- It used to be the blue rectangles; now they are the trees
+        self.image = surf
+        self.rect = self.image.get_frect(topleft=pos)
+
+```
+
+<br>
+<br>
+<br>
+<br>
+
+[4:38:39](https://youtu.be/8OMghdHP-zs?si=mzl13HkF8dCJM68c&t=16719)
