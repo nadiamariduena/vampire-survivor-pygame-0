@@ -39,3 +39,7 @@ map.get_layer_by_name('Ground')
 
  > #### This will allow us to work with each tile's position and image.
 
+```python
+map.get_layer_by_name('Ground').tiles()
+
+```
