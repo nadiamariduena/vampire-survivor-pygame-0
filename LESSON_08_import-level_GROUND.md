@@ -512,3 +512,8 @@ self.rect = self.image.get_frect(center=pos)
 ### Update the Code
 
 Change this:
+
+```python
+# Before
+self.rect = self.image.get_frect(center=pos)
+```
