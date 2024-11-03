@@ -103,3 +103,15 @@ for x, y, image in map.get_layer_by_name('Ground').tiles():
 31
 43
 ```
+
+
+
+<br>
+
+<br>
+
+## 🟠 Understanding the Output
+
+
+### 🟢 `Surface(64x64x32)`:
+
