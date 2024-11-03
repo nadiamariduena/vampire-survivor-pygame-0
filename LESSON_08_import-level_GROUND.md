@@ -385,3 +385,6 @@ When the player approaches the sprite, they might get too close, almost appearin
 ```python
 Sprite((x * TILE_SIZE, y * TILE_SIZE), image, self.all_sprites)
 ```
+
+#### To visualize this, you can print the sprite positions to the console:
+
