@@ -217,3 +217,16 @@ Here’s how it looks:
 
 <br>
 <br>
+
+
+
+
+<br>
+<br>
+<br>
+
+[4:34:05](https://youtu.be/8OMghdHP-zs?si=hC_cN3YGOKKzxTem&t=16445)
+
+## 🟡 4: Creating Non-Collisional Sprites
+
+
