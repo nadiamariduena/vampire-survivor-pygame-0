@@ -93,3 +93,13 @@ for x, y, image in map.get_layer_by_name('Ground').tiles():
 
 >  When you run this code, you’ll see output similar to this in your console:
 
+```python
+# This is just a part of all the data I have in the console
+43
+<Surface(64x64x32)>
+30
+43
+<Surface(64x64x32)>
+31
+43
+```
