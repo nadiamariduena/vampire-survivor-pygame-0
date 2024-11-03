@@ -37,3 +37,5 @@ map.get_layer_by_name('Ground')
 
 ✋ **Next**, we’ll **add `.tiles()` to the line** above to **retrieve the individual tiles** within the ground layer.
 
+ > #### This will allow us to work with each tile's position and image.
+
