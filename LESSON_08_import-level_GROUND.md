@@ -547,3 +547,6 @@ class Sprite(pygame.sprite.Sprite):
 
 ```
 ### 🔴 Syncing Positions
+
+
+**Both** the `CollisionsSprite` **and** `Sprite` **should have their positions synchronized**.
