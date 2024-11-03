@@ -486,3 +486,5 @@ To improve the visual coherence of the game, **we need to ensure that the object
 
 #### Upon reviewing the game screen, you might notice that some trees are protruding out of the map boundaries, while others overlap with rocks.
 
+
+**For example**, the top corner of a pine tree is partially overlapping a rock in the game, more so than what is depicted in the map editor.
