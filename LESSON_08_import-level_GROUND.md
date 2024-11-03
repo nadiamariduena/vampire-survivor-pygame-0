@@ -531,5 +531,10 @@ After making this change, run the code again. You should see significant improve
 > #### However, we might still notice some minor discrepancies in positioning.
 
 <br>
+<br>
 
 ## 🟡 9: Addressing Remaining Alignment Issues
+
+
+#### To further refine the positioning, we need to make a similar adjustment to the Sprite class, which also uses centered positioning:
+
