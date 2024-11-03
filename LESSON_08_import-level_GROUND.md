@@ -176,3 +176,6 @@ Below is the updated grid representation, including the specified tile indices.
 ```
 
 ## 2. 🌈 Adding Indices
+
+### Now, let’s place the tile indices `(30, 31, 43)` within the context of the grid.
+
