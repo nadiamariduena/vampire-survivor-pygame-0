@@ -381,3 +381,7 @@ When the player approaches the sprite, they might get too close, almost appearin
 
 ### To correctly position the tiles in the game, you will `multiply the x and y coordinates by TILE_SIZE` when creating the sprite:
 
+
+```python
+Sprite((x * TILE_SIZE, y * TILE_SIZE), image, self.all_sprites)
+```
