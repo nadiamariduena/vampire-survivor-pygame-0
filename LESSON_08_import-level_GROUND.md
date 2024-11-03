@@ -628,3 +628,9 @@ for obj in map.get_layer_by_name('Collisions'):
 CollisionsSprite((obj.x, obj.y))
 ```
 #### In the loop, this looks like:
+
+```python
+for obj in map.get_layer_by_name('Collisions'):
+    CollisionsSprite((obj.x, obj.y))
+
+```
