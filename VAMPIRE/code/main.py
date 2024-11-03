@@ -3,6 +3,9 @@ from settings import *
 from player import Player
 from sprites import *
 
+from pytmx.util_pygame import load_pygame
+
+
 from random import randint
 
 # Define the Game class to encapsulate the game's functionality
@@ -30,21 +33,34 @@ class Game:
         # group 2
         self.collision_sprites = pygame.sprite.Group()
 
+        self.setup()
+
         # SPRITES
         # player
         # This line below creates an instance of the Player class and adds it to the self.all_sprites group, allowing it to be managed alongside all game objects.
-        self.player = Player((400, 300), self.all_sprites, self.collision_sprites)
+        self.player = Player((500, 300), self.all_sprites, self.collision_sprites)
 
         # random blue cubes
-        for i in range(6):
-            x, y = randint(0, WINDOW_WIDTH), randint(0, WINDOW_HEIGHT)
+        # - here
+        # Previously, we used a loop to create six random cubes on the screen with different sizes. Now, we’ll replace those cubes with the Objects from our TMX file. This means we’ll use actual game elements like trees and rocks instead of placeholder graphics.
 
-            # Random width and height for the cubes
-            w, h = randint(60, 100), randint(50, 100)  # Different sizes each time
 
-            # Create a collision sprite
-            CollisionsSprite((x, y), (w, h), (self.all_sprites, self.collision_sprites))
-            # By passing self.collision_sprites as an argument, the player gains access to the collision detection logic without being a direct member of that group. This allows the player to check for potential collisions with other sprites while not being included in the collision checks themselves.
+    def setup(self):
+        map = load_pygame(join('../data', 'maps', 'world.tmx'))
+        # importing the trees
+        for x,y, image in map.get_layer_by_name('Ground').tiles():
+            Sprite((x * TILE_SIZE,y * TILE_SIZE), image, self.all_sprites)
+            print(f"Sprite position: {x * TILE_SIZE}, {y * TILE_SIZE}")
+
+        for obj in map.get_layer_by_name('Objects'):
+            CollisionsSprite((obj.x, obj.y), obj.image, (self.all_sprites, self.collision_sprites))
+        # importing the LAYER/plane/GROUND
+
+        for obj in map.get_layer_by_name('Collisions'):
+            # print(obj.image)
+            CollisionsSprite((obj.x, obj.y), pygame.Surface((obj.width, obj.height)), self.collision_sprites )
+
+
 
 
 
@@ -68,6 +84,9 @@ class Game:
             # Draw the current frame to the display
             self.display_surface.fill("black")
             self.all_sprites.draw(self.display_surface)
+
+        # Draw the player with the border (BORDERS)
+            # self.player.draw(self.display_surface)
 
             pygame.display.update()
 
