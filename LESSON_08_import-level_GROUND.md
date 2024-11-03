@@ -729,3 +729,8 @@ This argument will link the collision objects to the appropriate collision detec
 pygame.Surface((obj.width, obj.height)), self.collision_sprites )
 ```
 #### This way, the collision rectangles will interact properly with other objects in the game, ensuring a realistic experience.
+
+
+<br>
+
+### 🟤 Running the Code
