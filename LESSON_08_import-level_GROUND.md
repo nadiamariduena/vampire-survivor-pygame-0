@@ -290,3 +290,7 @@ TILE_SIZE = 64
 
 - Under the **Objects** `for` loop, **add** the following
 
+```python
+Sprite((x, y), image, self.all_sprites)
+```
+<br>
