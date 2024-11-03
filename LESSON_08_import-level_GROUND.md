@@ -359,5 +359,10 @@ When the player approaches the sprite, they might get too close, almost appearin
 
 ## 🌈 Solution:
 
+### 🟤Adjusting Tile Positions
+
+
+<br>
+
 <br>
 <br>
