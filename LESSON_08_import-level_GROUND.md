@@ -43,3 +43,9 @@ map.get_layer_by_name('Ground')
 map.get_layer_by_name('Ground').tiles()
 
 ```
+
+
+### 🟪 Why Use .tiles()?
+
+**The purpose of `.tiles()`** is **to access the individual tiles** in the **ground layer**.
+
