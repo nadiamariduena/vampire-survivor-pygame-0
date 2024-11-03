@@ -312,3 +312,5 @@ def setup(self):
 ```
 ### What is happening here:
 
+ We load the map using a function and get the different layers.
+
