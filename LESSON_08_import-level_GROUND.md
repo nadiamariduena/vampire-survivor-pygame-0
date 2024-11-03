@@ -646,4 +646,7 @@ When working with collision objects, we won't use an image like we did with the 
 
 <br>
 
+🔴 To observe the behavior of these objects, we can print the image attribute to see what we get:
+
+<br>
 
