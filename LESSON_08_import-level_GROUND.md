@@ -361,6 +361,9 @@ When the player approaches the sprite, they might get too close, almost appearin
 
 ### 🟤Adjusting Tile Positions
 
+#### Explanation of Tile Positioning
+
+- To fix the proximity issue, **we need to multiply the grid indices by the tile size (64 pixels)**.
 
 <br>
 
