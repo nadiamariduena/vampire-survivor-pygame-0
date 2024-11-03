@@ -560,3 +560,4 @@ self.rect = self.image.get_frect(topleft=pos)
 
 ```
 
+### Putting It All Together
