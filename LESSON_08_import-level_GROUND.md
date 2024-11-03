@@ -669,3 +669,9 @@ none...
 ```
 #### 🔴 This confirms that the collision objects do not have an associated image since they are meant to be invisible.
 
+
+<br>
+
+### 🟫 Putting It All Together
+
+#### Here’s how your setup method will look with all these changes:
