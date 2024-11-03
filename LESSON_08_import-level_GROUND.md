@@ -423,3 +423,4 @@ print(f"Sprite position: {x * TILE_SIZE}, {y * TILE_SIZE}")
 
 🟤 **Full Coverage of the Game Window:**
 
+You’ll notice that the **tiles now cover the entire game window**.
