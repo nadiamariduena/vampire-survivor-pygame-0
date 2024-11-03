@@ -255,3 +255,13 @@ class Sprite(pygame.sprite.Sprite):
 <br>
 <br>
 <br>
+
+
+## 🟦 Before Moving On
+
+- Remember that we have the below code in our `settings.py`, we will be using this when multiplying (in the next steps)
+
+```python
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280,720
+TILE_SIZE = 64
+```
