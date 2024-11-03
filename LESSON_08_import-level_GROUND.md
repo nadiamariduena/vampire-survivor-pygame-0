@@ -116,3 +116,8 @@ for x, y, image in map.get_layer_by_name('Ground').tiles():
 ### 🟢 `Surface(64x64x32)`:
 
 > #### 🔺 This indicates a tile or sprite surface that is 64 pixels wide, 64 pixels high, and has a depth of 32 bits (often for color depth).
+
+- - - #### 🔺 These <u>indices</u>  are multiplied by 32, which refers to the tile size.
+
+
+
