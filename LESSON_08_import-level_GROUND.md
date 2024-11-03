@@ -337,6 +337,12 @@ def setup(self):
 
 ### it’s important to understand why it’s not ideal to access the coordinates directly:
 
+```python
+for x, y, image in map.get_layer_by_name('Ground').tiles():
+    Sprite((x, y), image, self.all_sprites)
+```
+### Issue with Player Proximity 👬
+
 
 
 <br>
