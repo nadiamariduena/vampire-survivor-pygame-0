@@ -439,3 +439,5 @@ You’ll notice that the **tiles now cover the entire game window**.
 
 
 <br>
+
+### 🌈 Fixing the Object (trees) Visibility Issue
