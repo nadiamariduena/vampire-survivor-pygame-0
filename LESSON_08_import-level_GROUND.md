@@ -616,3 +616,6 @@ for obj in map.get_layer_by_name('Collisions'):
 ```
 
 
+>#### 🍭 This line accesses the collision data we defined in Tiled editor, allowing us to create corresponding collision objects in our game.
+
+<br>
