@@ -734,3 +734,7 @@ pygame.Surface((obj.width, obj.height)), self.collision_sprites )
 <br>
 
 ### 🟤 Running the Code
+
+After making these adjustments, run the code again.
+
+- 🌈 You should see that the collision system is now functioning correctly, your character can no longer pass through walls or other solid objects.
