@@ -285,3 +285,8 @@ TILE_SIZE = 64
 #### [4:35:00](https://youtu.be/8OMghdHP-zs?si=qagyPW0D_WbJxZ7j&t=16500)
 
 ### We’ll add the `Sprite` instance within the `setup` method of our game class.
+
+- 🔴 **Warning** there will be an issue with this approach, we will check this later.
+
+- Under the **Objects** `for` loop, **add** the following
+
