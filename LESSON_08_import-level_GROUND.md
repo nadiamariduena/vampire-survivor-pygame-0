@@ -314,3 +314,5 @@ def setup(self):
 
  We load the map using a function and get the different layers.
 
+- For the **Objects** layer, we create collision sprites.
+
