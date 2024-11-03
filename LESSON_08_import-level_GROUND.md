@@ -722,3 +722,6 @@ CollisionsSprite((obj.x, obj.y), pygame.Surface((obj.width, obj.height)))
 ### Next, we need to include the missing argument for the collision groups.
 
 This argument will link the collision objects to the appropriate collision detection logic:
+
+### now add the missing argument self.collision_sprites )
+
