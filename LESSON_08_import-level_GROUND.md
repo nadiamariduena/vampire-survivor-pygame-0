@@ -434,3 +434,8 @@ You’ll notice that the **tiles now cover the entire game window**.
 ### 🔴 Disappearance of Objects 🌳
 
 #### You may see that the object trees have disappeared from the screen.
+
+> #### This happens due to the order of the code execution.
+
+
+<br>
