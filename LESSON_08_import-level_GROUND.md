@@ -122,3 +122,6 @@ for x, y, image in map.get_layer_by_name('Ground').tiles():
 
 
 ### 🟢 Tile Indices `(30, 31, 43)`:
+
+These numbers represent specific tiles in your tile map.
+
