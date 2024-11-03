@@ -54,3 +54,8 @@ map.get_layer_by_name('Ground').tiles()
 
 <br>
 <br>
+
+## `Loop`
+
+## 🟡 2: Using a Loop to Process `Tiles`
+
