@@ -604,3 +604,10 @@ class CollisionsSprite(pygame.sprite.Sprite):
 <br>
 
 ## 🟩 Understanding the Surface Creation
+
+<br>
+
+### 🟤 1. Importing the Collisions Layer
+
+**To begin**, we need to loop through the objects in the **`"Collisions"`** layer of the map:
+
