@@ -316,3 +316,4 @@ def setup(self):
 
 - For the **Objects** layer, we create collision sprites.
 
+- For the **Ground** layer, we create ground sprites **using the adjusted positions multiplied** by **TILE_SIZE** (`64` in this case).
