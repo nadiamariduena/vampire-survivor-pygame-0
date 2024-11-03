@@ -675,3 +675,30 @@ none...
 ### 🟫 Putting It All Together
 
 #### Here’s how your setup method will look with all these changes:
+
+
+```python
+def setup(self):
+    map = load_pygame(join('../data', 'maps', 'world.tmx'))
+    # Importing the trees
+    for x, y, image in map.get_layer_by_name('Ground').tiles():
+        Sprite((x * TILE_SIZE, y * TILE_SIZE), image, self.all_sprites)
+        print(f"Sprite position: {x * TILE_SIZE}, {y * TILE_SIZE}")
+
+    for obj in map.get_layer_by_name('Objects'):
+        CollisionsSprite((obj.x, obj.y), obj.image, (self.all_sprites, self.collision_sprites))
+
+    # Importing the collision layer
+    for obj in map.get_layer_by_name('Collisions'):
+        print(obj.image)
+        # CollisionsSprite((obj.x, obj.y))
+
+```
+
+<br>
+
+## 🌈 Solution: Creating an Invisible Collision Surface
+
+
+### Defining Invisible Collision Objects
+
