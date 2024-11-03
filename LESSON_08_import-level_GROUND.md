@@ -282,3 +282,6 @@ TILE_SIZE = 64
 
 ## 🟢 Creating a Sprite Instance
 
+#### [4:35:00](https://youtu.be/8OMghdHP-zs?si=qagyPW0D_WbJxZ7j&t=16500)
+
+### We’ll add the `Sprite` instance within the `setup` method of our game class.
