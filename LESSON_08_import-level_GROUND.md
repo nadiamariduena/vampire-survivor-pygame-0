@@ -277,3 +277,8 @@ TILE_SIZE = 64
 ### 🟫 Now that we have our Sprite class, <u> we need to create an instance of this sprite</u> in the game.
 
 > This will allow us to display a ground sprite on the screen.
+
+
+
+## 🟢 Creating a Sprite Instance
+
