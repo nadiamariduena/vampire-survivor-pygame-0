@@ -59,3 +59,5 @@ map.get_layer_by_name('Ground').tiles()
 
 ## 🟡 2: Using a Loop to Process `Tiles`
 
+- **Now** we need to insert the above line inside a **loop to process each tile.**
+
