@@ -591,3 +591,9 @@ class CollisionsSprite(pygame.sprite.Sprite):
 <br>
 
 [4:38:39](https://youtu.be/8OMghdHP-zs?si=mzl13HkF8dCJM68c&t=16719)
+
+
+## 🟡 10: Importing the Collisions Layer
+
+<br>
+
