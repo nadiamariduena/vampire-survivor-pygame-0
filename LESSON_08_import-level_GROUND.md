@@ -611,3 +611,8 @@ class CollisionsSprite(pygame.sprite.Sprite):
 
 **To begin**, we need to loop through the objects in the **`"Collisions"`** layer of the map:
 
+```python
+for obj in map.get_layer_by_name('Collisions'):
+```
+
+
