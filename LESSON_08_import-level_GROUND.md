@@ -483,3 +483,6 @@ To improve the visual coherence of the game, **we need to ensure that the object
 <br>
 
 ### 🔴 the Problem
+
+#### Upon reviewing the game screen, you might notice that some trees are protruding out of the map boundaries, while others overlap with rocks.
+
