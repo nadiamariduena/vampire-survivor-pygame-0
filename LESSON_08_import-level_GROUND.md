@@ -416,3 +416,7 @@ print(f"Sprite position: {x * TILE_SIZE}, {y * TILE_SIZE}")
  <br>
 
 
+## 🟡 7:  Run the Code
+
+
+### Observing the Changes
