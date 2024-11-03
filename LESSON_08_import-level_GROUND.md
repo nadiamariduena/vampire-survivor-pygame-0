@@ -379,3 +379,5 @@ When the player approaches the sprite, they might get too close, almost appearin
 
 ## 🟡 6: Multiply the `x and y` coordinates by `TILE_SIZE`
 
+### To correctly position the tiles in the game, you will `multiply the x and y coordinates by TILE_SIZE` when creating the sprite:
+
