@@ -650,3 +650,9 @@ When working with collision objects, we won't use an image like we did with the 
 
 <br>
 
+```python
+for obj in map.get_layer_by_name('Collisions'):
+    print(obj.image)
+    # CollisionsSprite((obj.x, obj.y))
+
+```
