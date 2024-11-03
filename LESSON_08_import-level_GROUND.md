@@ -502,3 +502,8 @@ self.rect = self.image.get_frect(center=pos)
 
 ```
 <br>
+
+### 🌈 Modifying the Positioning Logic
+
+- To ensure that the objects match their positions in the map editor, we need to adjust this line.
+
