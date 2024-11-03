@@ -14,3 +14,4 @@
 
 <br>
 
+🟫 **In this step**, we'll continue **expanding the game** world by **importing the ground layers** <u>from our **tile map**</u> .
