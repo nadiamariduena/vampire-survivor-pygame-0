@@ -703,3 +703,7 @@ def setup(self):
 ### Defining Invisible Collision Objects
 
 To create` the <u>invisible collision objects</u> , we need to define a `surface` using the width and height of each object.
+
+> #### This ensures that our collision rectangles match the dimensions set in Tiled:
+
+<br>
