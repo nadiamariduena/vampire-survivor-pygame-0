@@ -232,3 +232,4 @@ Here’s how it looks:
 
 ### In this step, we will create a new type of sprite specifically for the ground elements in our game.
 
+> - ✋ These **sprites will not interact with the player**, meaning **they won’t trigger any collision events**.
