@@ -243,3 +243,15 @@ To achieve this, we’ll create a **new class** in `sprites.py`.
 
 - This class will be based on the `pygame.sprite.Sprite` **class**.
 
+```python
+class Sprite(pygame.sprite.Sprite):
+    def __init__(self, pos, surf, groups):
+        super().__init__(groups)
+        self.image = surf
+        self.rect = self.image.get_rect(center=pos)
+
+```
+
+<br>
+<br>
+<br>
