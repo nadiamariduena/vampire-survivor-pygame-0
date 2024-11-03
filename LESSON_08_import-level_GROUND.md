@@ -80,3 +80,12 @@ for x, y, image in map.get_layer_by_name('Ground').tiles():
     print(image)
 
 ```
+### 🟠 Expected Output
+
+[4:33:41](https://youtu.be/8OMghdHP-zs?si=Uy4X1dKhCVL5odQt)
+
+
+
+
+- #### 🌈 If you look at the console, you'll see a significant amount of data being generated, which is a positive sign! The next step is to implement sprites that do not trigger collisions.
+
