@@ -597,3 +597,4 @@ class CollisionsSprite(pygame.sprite.Sprite):
 
 <br>
 
+### In this step, we will import the collision layer from Tiled and create invisible collision objects using rectangles.
