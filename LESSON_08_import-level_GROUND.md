@@ -24,3 +24,9 @@
 
 ## 🟤 Importing the Ground  Layer
 
+#### To access the ground layer from your tile map, use the following line of code:
+
+
+```python
+map.get_layer_by_name('Ground')
+```
