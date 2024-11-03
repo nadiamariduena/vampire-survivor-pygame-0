@@ -353,6 +353,11 @@ When the player approaches the sprite, they might get too close, almost appearin
 
 ### To clarify, the small numbers represent tile indices on the grid.
 
+**For example**, if we use **(0, 0)** for the first tile, it refers to the grid position but does not account for the actual pixel size of the tiles.
+
+
+
+## 🌈 Solution:
 
 <br>
 <br>
