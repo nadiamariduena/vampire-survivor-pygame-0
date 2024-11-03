@@ -656,3 +656,16 @@ for obj in map.get_layer_by_name('Collisions'):
     # CollisionsSprite((obj.x, obj.y))
 
 ```
+
+
+### Expected Output
+
+#### You will likely see output like this:
+
+```python
+none
+none
+none...
+```
+#### 🔴 This confirms that the collision objects do not have an associated image since they are meant to be invisible.
+
