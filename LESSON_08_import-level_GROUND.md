@@ -509,3 +509,6 @@ self.rect = self.image.get_frect(center=pos)
 
 #### Instead of centering the rectangle, we will set its position using the top-left corner.
 
+### Update the Code
+
+Change this:
