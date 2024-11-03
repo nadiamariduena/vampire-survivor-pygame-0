@@ -335,6 +335,8 @@ def setup(self):
 
 ## 🔴 Why Direct Access Is Problematic
 
+### it’s important to understand why it’s not ideal to access the coordinates directly:
+
 
 
 <br>
