@@ -351,6 +351,7 @@ When the player approaches the sprite, they might get too close, almost appearin
 
 ## 🟩 Understanding the Issue
 
+### To clarify, the small numbers represent tile indices on the grid.
 
 
 <br>
