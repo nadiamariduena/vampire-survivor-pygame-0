@@ -128,3 +128,14 @@ These numbers represent specific tiles in your tile map.
 > - - #### If the numbers represent X and Y positions, you can calculate the pixel positions by multiplying the indices by the tile size (64 pixels).
 
 <br>
+
+
+
+
+
+## 🟫 Example Calculations
+
+### If you have:
+
+- - 🟤 **Index 30** (assuming this is `X`):
+
