@@ -488,3 +488,10 @@ To improve the visual coherence of the game, **we need to ensure that the object
 
 
 **For example**, the top corner of a pine tree is partially overlapping a rock in the game, more so than what is depicted in the map editor.
+
+<br>
+
+### 🟠 What's Happening?
+
+#### The issue arises from how the position of the CollisionsSprite is being set.
+
