@@ -349,6 +349,7 @@ When the player approaches the sprite, they might get too close, almost appearin
 
 <br>
 
+## 🟩 Understanding the Issue
 
 
 
