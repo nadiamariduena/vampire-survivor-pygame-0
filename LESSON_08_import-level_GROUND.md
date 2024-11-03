@@ -72,3 +72,11 @@ for x, y, image in map.get_layer_by_name('Ground').tiles():
 
 After setting up the loop, let’s print the details of each tile to the console:
 
+```python
+for x, y, image in map.get_layer_by_name('Ground').tiles():
+
+    print(x)
+    print(y)
+    print(image)
+
+```
