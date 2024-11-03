@@ -713,3 +713,10 @@ CollisionsSprite((obj.x, obj.y), pygame.Surface((obj.width, obj.height)))
 ```
 
 > #### By doing this, we ensure that each collision object has the correct size, allowing for accurate interactions in the game environment.
+
+
+<br>
+
+## 🟠 Adding the Collision Group
+
+### Next, we need to include the missing argument for the collision groups.
