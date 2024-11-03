@@ -367,5 +367,8 @@ When the player approaches the sprite, they might get too close, almost appearin
 
 <br>
 
+- - - **First Tile:** The position `(0, 0)` corresponds to the pixel position (0, 0), but the width and height are both `64` pixels.
+
+
 <br>
 <br>
