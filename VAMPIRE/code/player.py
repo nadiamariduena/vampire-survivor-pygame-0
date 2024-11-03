@@ -9,6 +9,8 @@ class Player(pygame.sprite.Sprite):
 
         self.rect = self.image.get_frect(center = pos)
 
+        self.hitbox_rect = self.rect.inflate(-60, 0)
+
 
         # ----- MOVEMENT ---------
         # This vector will store the direction in which the player is moving.
@@ -38,32 +40,49 @@ class Player(pygame.sprite.Sprite):
 
     def move(self,dt):
         #self.rect.center += self.direction * self.speed * dt # before
+        # self.rect.x += self.direction.x * self.speed * dt
+        # self.rect.y += self.direction.y * self.speed * dt
 
-        self.rect.x += self.direction.x * self.speed * dt
+        self.hitbox_rect.x += self.direction.x * self.speed * dt
         self.collision('horizontal')
-        self.rect.y += self.direction.y * self.speed * dt
+
+        self.hitbox_rect.y += self.direction.y * self.speed * dt
         self.collision('vertical')
 
+        self.rect.center = self.hitbox_rect.center
+
+    #  (BORDERS) ----------
+    # def draw(self, surface):
+    #     # Draw the player image
+    #     surface.blit(self.image, self.rect.topleft)
+
+    # # Draw the yellow border around the rect
+    #     border_rect = self.rect.inflate(2, 2)  # Inflate by 2 pixels for the border
+    #     pygame.draw.rect(surface, (255, 255, 0), border_rect, 1)  # Yellow border for the rect
+
+    #     # Draw the hitbox rectangle in red for visibility
+    #     pygame.draw.rect(surface, (255, 0, 0), self.hitbox_rect, 1)  # Red for the hitbox
+    #  (BORDERS) ----------
 
     def collision(self, direction):
         # Here, we start a loop that goes through each obstacle (sprite) in the 'collision_sprites' group. This group contains all the objects we want to check for collisions with.
         for sprite in self.collision_sprites:
-            if sprite.rect.colliderect(self.rect):
+            if sprite.rect.colliderect(self.hitbox_rect):
                 #This line checks if the player's rectangle (self.rect) overlaps with the rectangle of the current sprite. The colliderect function returns True if there is any overlap.
                 # print("pverlap")
              if direction == 'horizontal':
                 # Check if the player is moving to the right
                 if self.direction.x > 0:
                     # If so, set the player's right side to the left side of the obstacle
-                    self.rect.right = sprite.rect.left
+                    self.hitbox_rect.right = sprite.rect.left
 
                 # Check if the player is moving to the left
                 if self.direction.x < 0:
                     # If so, set the player's left side to the right side of the obstacle
-                    self.rect.left = sprite.rect.right
+                    self.hitbox_rect.left = sprite.rect.right
              else:
-                if self.direction.y < 0: self.rect.top = sprite.rect.bottom
-                if self.direction.y > 0: self.rect.bottom = sprite.rect.top
+                if self.direction.y < 0: self.hitbox_rect.top = sprite.rect.bottom
+                if self.direction.y > 0: self.hitbox_rect.bottom = sprite.rect.top
 
 
     def update(self, dt):
