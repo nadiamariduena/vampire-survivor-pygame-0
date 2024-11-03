@@ -642,4 +642,8 @@ for obj in map.get_layer_by_name('Collisions'):
 
 When working with collision objects, we won't use an image like we did with the ground layer.
 
+> #### 🌈 Instead, we’ll create invisible rectangles.
+
+<br>
+
 
