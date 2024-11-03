@@ -372,6 +372,7 @@ When the player approaches the sprite, they might get too close, almost appearin
 - - - **Second Tile:** The next tile at `(1, 0)` has its left edge at `(64, 0)` because it occupies the space of one tile width.
 
 
+[<img src="multiply_number_00.gif"/>]()
 
 <br>
 <br>
