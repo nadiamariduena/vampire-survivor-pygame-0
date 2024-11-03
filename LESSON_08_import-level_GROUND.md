@@ -35,3 +35,5 @@ map.get_layer_by_name('Ground')
 
 ## 🟤 Adding `.tiles()`
 
+✋ **Next**, we’ll **add `.tiles()` to the line** above to **retrieve the individual tiles** within the ground layer.
+
