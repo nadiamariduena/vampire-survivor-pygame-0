@@ -273,3 +273,5 @@ TILE_SIZE = 64
 <br>
 
 ## 🟡 5: Adding the new `Sprite` class to the Game
+
+### 🟫 Now that we have our Sprite class, <u> we need to create an instance of this sprite</u> in the game.
