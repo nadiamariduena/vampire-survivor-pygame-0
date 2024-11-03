@@ -463,3 +463,14 @@ The disappearance of the trees is related to the order of the sprite creation li
 
 
 [<img src="reposition_line_ground.gif"/>]()
+
+
+
+<br>
+<br>
+
+<br>
+
+## 🟡 8: Object Alignment Issues in Game Development
+
+
