@@ -538,3 +538,12 @@ After making this change, run the code again. You should see significant improve
 
 #### To further refine the positioning, we need to make a similar adjustment to the Sprite class, which also uses centered positioning:
 
+```python
+class Sprite(pygame.sprite.Sprite):
+    def __init__(self, pos, surf, groups):
+        super().__init__(groups)
+        self.image = surf
+        self.rect = self.image.get_frect(center=pos)
+
+```
+### 🔴 Syncing Positions
