@@ -517,3 +517,9 @@ Change this:
 # Before
 self.rect = self.image.get_frect(center=pos)
 ```
+### to this:
+
+```python
+# After
+self.rect = self.image.get_frect(topleft=pos)
+```
