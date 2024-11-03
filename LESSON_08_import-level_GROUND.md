@@ -89,3 +89,7 @@ for x, y, image in map.get_layer_by_name('Ground').tiles():
 
 - #### 🌈 If you look at the console, you'll see a significant amount of data being generated, which is a positive sign! The next step is to implement sprites that do not trigger collisions.
 
+<br>
+
+>  When you run this code, you’ll see output similar to this in your console:
+
