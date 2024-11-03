@@ -230,3 +230,5 @@ Here’s how it looks:
 ## 🟡 4: Creating Non-Collisional Sprites
 
 
+### In this step, we will create a new type of sprite specifically for the ground elements in our game.
+
