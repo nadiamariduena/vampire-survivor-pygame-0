@@ -447,3 +447,19 @@ The disappearance of the trees is related to the order of the sprite creation li
 >**To resolve this**, you should **move** the Sprite line for the ground tiles **above** the `CollisionsSprite` line for the objects.
 
 #### Code Adjustment
+
+
+```python
+# the correct positioning
+
+        for x,y, image in map.get_layer_by_name('Ground').tiles():
+            Sprite((x * TILE_SIZE,y * TILE_SIZE), image, self.all_sprites)
+
+        for obj in map.get_layer_by_name('Objects'):
+            CollisionsSprite((obj.x, obj.y), obj.image, (self.all_sprites, self.collision_sprites))
+
+```
+
+
+
+[<img src="reposition_line_ground.gif"/>]()
