@@ -523,3 +523,8 @@ self.rect = self.image.get_frect(center=pos)
 # After
 self.rect = self.image.get_frect(topleft=pos)
 ```
+
+#### Checking the Improvements
+
+After making this change, run the code again. You should see significant improvements in the alignment of the trees and rocks.
+
