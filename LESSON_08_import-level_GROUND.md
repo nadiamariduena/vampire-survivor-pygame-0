@@ -125,3 +125,6 @@ for x, y, image in map.get_layer_by_name('Ground').tiles():
 
 These numbers represent specific tiles in your tile map.
 
+> - - #### If the numbers represent X and Y positions, you can calculate the pixel positions by multiplying the indices by the tile size (64 pixels).
+
+<br>
