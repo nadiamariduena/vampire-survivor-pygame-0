@@ -61,3 +61,6 @@ map.get_layer_by_name('Ground').tiles()
 
 - **Now** we need to insert the above line inside a **loop to process each tile.**
 
+```python
+for x, y, image in map.get_layer_by_name('Ground').tiles():
+```
