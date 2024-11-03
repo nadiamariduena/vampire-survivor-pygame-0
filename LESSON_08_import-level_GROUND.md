@@ -30,3 +30,8 @@
 ```python
 map.get_layer_by_name('Ground')
 ```
+
+<br>
+
+## 🟤 Adding `.tiles()`
+
