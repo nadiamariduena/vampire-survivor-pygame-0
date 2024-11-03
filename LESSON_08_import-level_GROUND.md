@@ -376,3 +376,6 @@ When the player approaches the sprite, they might get too close, almost appearin
 
 <br>
 <br>
+
+## 🟡 6: Multiply the `x and y` coordinates by `TILE_SIZE`
+
