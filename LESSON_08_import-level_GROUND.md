@@ -369,6 +369,9 @@ When the player approaches the sprite, they might get too close, almost appearin
 
 - - - **First Tile:** The position `(0, 0)` corresponds to the pixel position (0, 0), but the width and height are both `64` pixels.
 
+- - - **Second Tile:** The next tile at `(1, 0)` has its left edge at `(64, 0)` because it occupies the space of one tile width.
+
+
 
 <br>
 <br>
