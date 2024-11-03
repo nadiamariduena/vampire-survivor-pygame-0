@@ -507,3 +507,5 @@ self.rect = self.image.get_frect(center=pos)
 
 - To ensure that the objects match their positions in the map editor, we need to adjust this line.
 
+#### Instead of centering the rectangle, we will set its position using the top-left corner.
+
