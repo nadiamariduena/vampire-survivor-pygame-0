@@ -150,3 +150,11 @@ These numbers represent specific tiles in your tile map.
 
 <br>
 <br>
+
+
+<br>
+<br>
+
+## 🌈 1. Tile Grid with Indices
+
+Below is the updated grid representation, including the specified tile indices.
