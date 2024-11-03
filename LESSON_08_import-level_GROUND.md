@@ -209,3 +209,7 @@ Here’s how it looks:
 
 ```
 
+
+
+### 🔴If you're using these indices to render tiles on your screen, remember to ensure they fit within your window dimensions (1280x720) and adjust your game logic accordingly.
+
