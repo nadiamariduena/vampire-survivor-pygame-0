@@ -345,6 +345,10 @@ for x, y, image in map.get_layer_by_name('Ground').tiles():
 
 When the player approaches the sprite, they might get too close, almost appearing inside it.
 
+> - #### 🔺 This issue arises because we are using the grid coordinates directly, which are too small for our tile size.
+
+<br>
+
 
 
 
