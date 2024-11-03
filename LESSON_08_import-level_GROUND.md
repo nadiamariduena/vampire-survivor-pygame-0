@@ -310,3 +310,5 @@ def setup(self):
         Sprite((x, y), image, self.all_sprites)
 
 ```
+### What is happening here:
+
