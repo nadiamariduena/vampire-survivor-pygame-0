@@ -1,11 +1,21 @@
 from settings import *
 
-class CollisionsSprite(pygame.sprite.Sprite):
-    def __init__(self, pos, size, groups):
+
+# no collidible
+
+class Sprite(pygame.sprite.Sprite):
+    def __init__(self, pos, surf, groups):
         super().__init__(groups)
+        self.image = surf
+        self.rect = self.image.get_frect(topleft = pos)
 
-        # --- a blue block surface
 
-        self.image = pygame.Surface(size)
-        self.image.fill('blue')
-        self.rect = self.image.get_frect(center = pos)
+
+
+# Collidable Trees
+class CollisionsSprite(pygame.sprite.Sprite):
+    def __init__(self, pos, surf, groups):
+        super().__init__(groups)
+        # --- it used to be the blue rectangles, now are the trees
+        self.image = surf
+        self.rect = self.image.get_frect(topleft = pos)
