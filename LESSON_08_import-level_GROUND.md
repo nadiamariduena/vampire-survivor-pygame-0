@@ -343,6 +343,9 @@ for x, y, image in map.get_layer_by_name('Ground').tiles():
 ```
 ### Issue with Player Proximity 👬
 
+When the player approaches the sprite, they might get too close, almost appearing inside it.
+
+
 
 
 <br>
