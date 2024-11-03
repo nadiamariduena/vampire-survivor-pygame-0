@@ -634,3 +634,12 @@ for obj in map.get_layer_by_name('Collisions'):
     CollisionsSprite((obj.x, obj.y))
 
 ```
+
+
+<br>
+
+### 🟤 3. Handling the Image
+
+When working with collision objects, we won't use an image like we did with the ground layer.
+
+
