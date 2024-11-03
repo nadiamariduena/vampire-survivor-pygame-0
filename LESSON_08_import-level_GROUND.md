@@ -420,3 +420,6 @@ print(f"Sprite position: {x * TILE_SIZE}, {y * TILE_SIZE}")
 
 
 ### Observing the Changes
+
+🟤 **Full Coverage of the Game Window:**
+
