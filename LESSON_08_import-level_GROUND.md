@@ -476,3 +476,5 @@ The disappearance of the trees is related to the order of the sprite creation li
 
 ### In this step, we will address the alignment problems observed in the game.
 
+> -   #### 🟢 Some trees are overlapping with rocks and extending beyond the edges of the map.
+
