@@ -187,3 +187,9 @@ Below is the updated grid representation, including the specified tile indices.
 
 **Index 43:** This would be in row 6, column 3.
 
+
+<br>
+
+## 🌈 3. Updated Grid with Indices
+Here’s how it looks:
+
