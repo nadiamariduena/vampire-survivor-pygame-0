@@ -444,3 +444,6 @@ You’ll notice that the **tiles now cover the entire game window**.
 
 The disappearance of the trees is related to the order of the sprite creation lines.
 
+>**To resolve this**, you should **move** the Sprite line for the ground tiles **above** the `CollisionsSprite` line for the objects.
+
+#### Code Adjustment
