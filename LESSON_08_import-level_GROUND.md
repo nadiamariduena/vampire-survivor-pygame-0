@@ -179,3 +179,5 @@ Below is the updated grid representation, including the specified tile indices.
 
 ### Now, let’s place the tile indices `(30, 31, 43)` within the context of the grid.
 
+**For this example**, we'll **assume these indices are part of a larger grid** where the indices relate to specific rows and columns:
+
