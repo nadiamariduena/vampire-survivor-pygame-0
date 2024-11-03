@@ -15,3 +15,12 @@
 <br>
 
 🟫 **In this step**, we'll continue **expanding the game** world by **importing the ground layers** <u>from our **tile map**</u> .
+
+
+
+### 🍏 After successfully adding the trees 🌳, it's time to integrate the rest of the objects, which will enhance the game's environment.
+
+<br>
+
+## 🟤 Importing the Ground  Layer
+
