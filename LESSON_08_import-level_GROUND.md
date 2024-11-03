@@ -294,3 +294,19 @@ TILE_SIZE = 64
 Sprite((x, y), image, self.all_sprites)
 ```
 <br>
+
+
+### Putting it all together:
+
+```python
+def setup(self):
+    map = load_pygame(join('../data/maps/world.tmx'))
+    # Importing the trees
+    for obj in map.get_layer_by_name('Objects'):
+        CollisionSprite((obj.x, obj.y), obj.image, (self.all_sprites, self.collision_sprites))
+
+    # 🟡 Importing the Ground Layer
+    for x, y, image in map.get_layer_by_name('Ground').tiles():
+        Sprite((x, y), image, self.all_sprites)
+
+```
