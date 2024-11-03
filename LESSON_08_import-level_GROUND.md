@@ -49,3 +49,8 @@ map.get_layer_by_name('Ground').tiles()
 
 **The purpose of `.tiles()`** is **to access the individual tiles** in the **ground layer**.
 
+> 🔴This method **allows us to retrieve not just the layer itself, but also the specific tiles**, making it easier to manipulate them within our game.
+
+
+<br>
+<br>
