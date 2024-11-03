@@ -552,3 +552,11 @@ class Sprite(pygame.sprite.Sprite):
 **Both** the `CollisionsSprite` **and** `Sprite` **should have their positions synchronized**.
 
 > #### To achieve this, change the line in the Sprite class from `center` to `topleft`
+
+
+```python
+# After changes
+self.rect = self.image.get_frect(topleft=pos)
+
+```
+
