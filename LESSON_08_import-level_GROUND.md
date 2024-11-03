@@ -182,3 +182,5 @@ Below is the updated grid representation, including the specified tile indices.
 **For this example**, we'll **assume these indices are part of a larger grid** where the indices relate to specific rows and columns:
 
 **Index 30:** This could be represented as being in row 5, column 0 (0-based indexing).
+
+**Index 31:** This would be in row 5, column 1.
