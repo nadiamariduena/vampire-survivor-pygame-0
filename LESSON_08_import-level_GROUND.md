@@ -139,3 +139,14 @@ These numbers represent specific tiles in your tile map.
 
 - - 🟤 **Index 30** (assuming this is `X`):
 
+- - - Pixel X Position: **30 * 64 = 1920**
+
+- -  🟤 **Index 43** (assuming this is `Y`):
+
+- - - Pixel Y Position: **43 * 64 = 2752**
+
+### So, if both indices refer to positions in your grid, the pixel coordinates would be (1920, 2752).
+
+
+<br>
+<br>
