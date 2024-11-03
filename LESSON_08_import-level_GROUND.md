@@ -624,3 +624,7 @@ for obj in map.get_layer_by_name('Collisions'):
 
 **The first argument** for creating a `CollisionsSprite` will be the position of the object:
 
+```python
+CollisionsSprite((obj.x, obj.y))
+```
+#### In the loop, this looks like:
