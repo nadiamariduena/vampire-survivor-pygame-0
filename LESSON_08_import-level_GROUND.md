@@ -272,3 +272,4 @@ TILE_SIZE = 64
 <br>
 <br>
 
+## 🟡 5: Adding the new `Sprite` class to the Game
