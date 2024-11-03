@@ -241,3 +241,5 @@ Here’s how it looks:
 
 To achieve this, we’ll create a **new class** in `sprites.py`.
 
+- This class will be based on the `pygame.sprite.Sprite` **class**.
+
