@@ -317,3 +317,25 @@ def setup(self):
 - For the **Objects** layer, we create collision sprites.
 
 - For the **Ground** layer, we create ground sprites **using the adjusted positions multiplied** by **TILE_SIZE** (`64` in this case).
+
+
+ <br>
+
+ ## 🟠 Run the code
+
+[<img src="position-of-the-tile-on-the-grid__01.png"/>]()
+
+
+## 🟠 Output
+
+
+- 🟤 You should see a single yellow 🟨 tile (sprite) positioned at the top-left corner of the game window.
+
+
+
+## 🔴 Why Direct Access Is Problematic
+
+
+
+<br>
+<br>
