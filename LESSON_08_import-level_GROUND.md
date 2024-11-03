@@ -427,3 +427,10 @@ You’ll notice that the **tiles now cover the entire game window**.
 
 > This is because the tile positions are now accurately calculated using the tile size.
 
+
+
+<br>
+
+### 🔴 Disappearance of Objects 🌳
+
+#### You may see that the object trees have disappeared from the screen.
