@@ -213,3 +213,7 @@ Here’s how it looks:
 
 ### 🔴If you're using these indices to render tiles on your screen, remember to ensure they fit within your window dimensions (1280x720) and adjust your game logic accordingly.
 
+> #### If any index exceeds the number of tiles that can fit in the visible area, you may need to handle that by either scrolling the view or limiting the number of tiles drawn.
+
+<br>
+<br>
