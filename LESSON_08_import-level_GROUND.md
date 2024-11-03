@@ -394,3 +394,25 @@ print(f"Sprite position: {x * TILE_SIZE}, {y * TILE_SIZE}")
 
 
 <br>
+
+
+### Putting it all together
+
+```python
+    def setup(self):
+        map = load_pygame(join('../data/maps/world.tmx'))
+        for obj in map.get_layer_by_name('Objects'):
+            CollisionsSprite((obj.x, obj.y), obj.image, (self.all_sprites, self.collision_sprites))
+
+
+        # 🟡 importing the trees
+        for x,y, image in map.get_layer_by_name('Ground').tiles():
+            Sprite((x * TILE_SIZE,y * TILE_SIZE), image, self.all_sprites)
+
+            print(f"Sprite position: {x * TILE_SIZE}, {y * TILE_SIZE}")
+
+```
+
+ <br>
+
+
