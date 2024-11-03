@@ -441,3 +441,6 @@ You’ll notice that the **tiles now cover the entire game window**.
 <br>
 
 ### 🌈 Fixing the Object (trees) Visibility Issue
+
+The disappearance of the trees is related to the order of the sprite creation lines.
+
