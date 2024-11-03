@@ -479,3 +479,7 @@ The disappearance of the trees is related to the order of the sprite creation li
 > -   #### 🟢 Some trees are overlapping with rocks and extending beyond the edges of the map.
 
 To improve the visual coherence of the game, **we need to ensure that the objects align correctly** with their intended **positions as seen in the map editor**.
+
+<br>
+
+### 🔴 the Problem
